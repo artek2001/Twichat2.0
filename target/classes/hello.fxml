@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.artek.MainController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="425.0" minHeight="10.0" prefHeight="406.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="366.0" minHeight="10.0" prefHeight="114.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="178.0" minHeight="0.0" prefHeight="28.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <TextArea fx:id="textArea" onKeyReleased="#onEnter" prefHeight="91.0" prefWidth="422.0" promptText="Chat here" GridPane.columnSpan="2" GridPane.rowIndex="1">
+         <font>
+            <Font name="Montserrat Regular" size="17.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="5.0" right="5.0" />
+         </GridPane.margin>
+      </TextArea>
+      <ScrollPane fx:id="scrollPane" maxHeight="Infinity" prefHeight="392.0" prefWidth="400.0" GridPane.columnSpan="2">
+         <content>
+            <VBox fx:id="vbox">
+               <children>
+
+               </children>
+            </VBox>
+         </content></ScrollPane>
+      <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
+         <children>
+            <ImageView fx:id="imageViewCount" fitHeight="19.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+
+               <HBox.margin>
+                  <Insets left="7.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="viewCount" text="0">
+               <HBox.margin>
+                  <Insets left="5.0" top="5.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="liveStatus" text="Offline">
+               <HBox.margin>
+                  <Insets left="20.0" top="5.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</GridPane>
