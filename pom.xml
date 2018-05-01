@@ -5,20 +5,23 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>groupId</groupId>
-    <artifactId>twichat</artifactId>
+    <artifactId>twichat2.0</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>com.zenjava</groupId>
-                <artifactId>javafx-maven-plugin</artifactId>
-                <version>8.8.3</version>
-                <configuration>
-                    <vendor>YourCompany</vendor>
-                    <mainClass>com.twichat.MainApp</mainClass>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.github.twitch4j</groupId>
+            <artifactId>twitch4j</artifactId>
+            <version>v0.10.0</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>jcenter</id>
+            <url>https://jcenter.bintray.com/</url>
+        </repository>
+    </repositories>
+
     
 </project>
