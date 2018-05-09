@@ -4,54 +4,61 @@
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.github.twitch4j:twitch4j:v0.10.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.ratpack:ratpack-core:1.4.6" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-codec-http:4.1.6.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-codec:4.1.6.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-handler:4.1.6.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-buffer:4.1.6.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-transport:4.1.6.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-resolver:4.1.6.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.6.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-common:4.1.6.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.guava:guava:19.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.reactivestreams:reactive-streams:1.0.0.final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.ben-manes.caffeine:caffeine:2.3.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.javassist:javassist:3.19.0-GA" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.7.5" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-guava:2.7.5" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.15" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.7.5" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.7.5" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: ch.qos.logback:logback-classic:1.2.3" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: ch.qos.logback:logback-core:1.2.3" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.jcabi:jcabi-log:0.17.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.jcabi:jcabi-aspects:0.22" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.aspectj:aspectjrt:1.8.4" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework:spring-web:5.0.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework:spring-beans:5.0.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework:spring-core:5.0.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework:spring-jcl:5.0.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework.social:spring-social-core:1.1.4.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.neovisionaries:nv-websocket-client:2.3" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-lang3:3.6" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-io:commons-io:2.5" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.isomorphism:token-bucket:1.7" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: net.jodah:expiringmap:0.5.8" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: net.jodah:typetools:0.5.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: args4j:args4j:2.33" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.projectlombok:lombok:1.16.18" level="project" />
+    <orderEntry type="library" name="gradle-wrapper" level="project" />
+    <orderEntry type="library" name="Gradle: args4j:args4j:2.33" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.7.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-guava:2.7.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.7.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.7.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.ben-manes.caffeine:caffeine:2.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:19.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.jcabi:jcabi-aspects:0.22" level="project" />
+    <orderEntry type="library" name="Gradle: com.jcabi:jcabi-log:0.17.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.neovisionaries:nv-websocket-client:2.3" level="project" />
+    <orderEntry type="library" name="Gradle: commons-io:commons-io:2.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.6.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.6.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.6.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.6.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.6.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.6.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.6.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.6.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.ratpack:ratpack-core:1.4.6" level="project" />
+    <orderEntry type="library" name="Gradle: io.ratpack:ratpack-test:1.4.6" level="project" />
+    <orderEntry type="library" name="Gradle: javax.validation:validation-api:1.1.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" name="Gradle: net.jodah:expiringmap:0.5.8" level="project" />
+    <orderEntry type="library" name="Gradle: net.jodah:typetools:0.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.aspectj:aspectjrt:1.8.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.isomorphism:token-bucket:1.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.javassist:javassist:3.19.0-GA" level="project" />
+    <orderEntry type="library" name="Gradle: org.projectlombok:lombok:1.16.18" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.0.final" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.social:spring-social-core:1.1.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.0.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.0.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.0.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-web:5.0.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:1.15" level="project" />
+    <orderEntry type="module" module-name="Twitch4J" />
+    <orderEntry type="module" module-name="Twitch4J_integration" />
+    <orderEntry type="module" module-name="Twitch4J_main" />
+    <orderEntry type="module" module-name="Twitch4J_test" />
   </component>
 </module>

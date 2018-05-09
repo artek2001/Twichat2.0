@@ -4489,3 +4489,686 @@ ratpack.handling.internal.DoubleTransmissionException: attempt at double transmi
 ].!
 2018-05-01 10:03:14.812 [Thread-41] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [фып
 ].
+2018-05-04 15:09:35.588 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 15:09:35.595 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 15:09:35.595 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 15:09:35.595 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 15:09:35.595 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 15:09:35.596 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 15:09:35.596 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 15:09:35.596 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 15:09:35.596 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 15:09:35.596 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 15:09:35.597 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 15:09:35.597 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 15:09:35.597 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 15:09:35.599 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 15:09:35.833 [JavaFX Application Thread] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-05-04 15:09:35.847 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 15:09:45.084 [Thread-4] INFO  m.p.t.auth.CredentialManager$1 - Token Expired, triggering Refresh Event! [AuthTokenExpiredEvent(credential=OAuthCredential(type=twitch, token=vmpclokomv68jnrqsdjii5f7xhl3pt, tokenExpiresAt=java.util.GregorianCalendar[time=1525160614159,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="UTC",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=1,ERA=1,YEAR=2018,MONTH=4,WEEK_OF_YEAR=18,WEEK_OF_MONTH=1,DAY_OF_MONTH=1,DAY_OF_YEAR=121,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=7,HOUR_OF_DAY=7,MINUTE=43,SECOND=34,MILLISECOND=159,ZONE_OFFSET=0,DST_OFFSET=0], refreshToken=oemn3m1z80qlxlgxamc5vvkjomioa7bxo81hglc8cflnfdudiu, oAuthScopes=[user_read, chat_login, user_subscriptions], userId=209555712, userName=artekhound, displayName=artekhound))]
+2018-05-04 15:09:50.297 [JavaFX Application Thread] ERROR m.p.twitch4j.endpoints.UserEndpoint - Request failed: I/O error on GET request for "https://api.twitch.tv/kraken/users": api.twitch.tv; nested exception is java.net.UnknownHostException: api.twitch.tv
+2018-05-04 15:09:50.300 [Event Dispatch Thread] ERROR m.p.twitch4j.events.EventDispatcher - Unhandled exception caught dispatching event AuthTokenExpiredEvent
+2018-05-04 15:09:50.310 [JavaFX Application Thread] ERROR m.p.t.endpoints.ChannelEndpoint - Request failed: I/O error on GET request for "https://api.twitch.tv/kraken/channels/null": api.twitch.tv; nested exception is java.net.UnknownHostException: api.twitch.tv
+2018-05-04 15:10:28.105 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 15:10:28.111 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 15:10:28.111 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 15:10:28.112 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 15:10:28.112 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 15:10:28.112 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 15:10:28.112 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 15:10:28.112 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 15:10:28.113 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 15:10:28.113 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 15:10:28.113 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 15:10:28.113 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 15:10:28.113 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 15:10:28.116 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 15:10:28.335 [JavaFX Application Thread] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-05-04 15:10:28.343 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 15:10:37.680 [Thread-4] INFO  m.p.t.auth.CredentialManager$1 - Token Expired, triggering Refresh Event! [AuthTokenExpiredEvent(credential=OAuthCredential(type=twitch, token=vmpclokomv68jnrqsdjii5f7xhl3pt, tokenExpiresAt=java.util.GregorianCalendar[time=1525160614159,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="UTC",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=1,ERA=1,YEAR=2018,MONTH=4,WEEK_OF_YEAR=18,WEEK_OF_MONTH=1,DAY_OF_MONTH=1,DAY_OF_YEAR=121,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=7,HOUR_OF_DAY=7,MINUTE=43,SECOND=34,MILLISECOND=159,ZONE_OFFSET=0,DST_OFFSET=0], refreshToken=oemn3m1z80qlxlgxamc5vvkjomioa7bxo81hglc8cflnfdudiu, oAuthScopes=[user_read, chat_login, user_subscriptions], userId=209555712, userName=artekhound, displayName=artekhound))]
+2018-05-04 15:10:42.730 [JavaFX Application Thread] ERROR m.p.twitch4j.endpoints.UserEndpoint - Request failed: I/O error on GET request for "https://api.twitch.tv/kraken/users": api.twitch.tv; nested exception is java.net.UnknownHostException: api.twitch.tv
+2018-05-04 15:10:42.734 [Event Dispatch Thread] ERROR m.p.twitch4j.events.EventDispatcher - Unhandled exception caught dispatching event AuthTokenExpiredEvent
+2018-05-04 15:10:42.741 [JavaFX Application Thread] ERROR m.p.t.endpoints.ChannelEndpoint - Request failed: I/O error on GET request for "https://api.twitch.tv/kraken/channels/null": api.twitch.tv; nested exception is java.net.UnknownHostException: api.twitch.tv
+2018-05-04 15:10:47.681 [Thread-4] INFO  m.p.t.auth.CredentialManager$1 - Token Expired, triggering Refresh Event! [AuthTokenExpiredEvent(credential=OAuthCredential(type=twitch, token=vmpclokomv68jnrqsdjii5f7xhl3pt, tokenExpiresAt=java.util.GregorianCalendar[time=1525160614159,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="UTC",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=1,ERA=1,YEAR=2018,MONTH=4,WEEK_OF_YEAR=18,WEEK_OF_MONTH=1,DAY_OF_MONTH=1,DAY_OF_YEAR=121,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=7,HOUR_OF_DAY=7,MINUTE=43,SECOND=34,MILLISECOND=159,ZONE_OFFSET=0,DST_OFFSET=0], refreshToken=oemn3m1z80qlxlgxamc5vvkjomioa7bxo81hglc8cflnfdudiu, oAuthScopes=[user_read, chat_login, user_subscriptions], userId=209555712, userName=artekhound, displayName=artekhound))]
+2018-05-04 15:10:47.690 [Event Dispatch Thread] ERROR m.p.twitch4j.events.EventDispatcher - Unhandled exception caught dispatching event AuthTokenExpiredEvent
+2018-05-04 15:10:57.681 [Thread-4] INFO  m.p.t.auth.CredentialManager$1 - Token Expired, triggering Refresh Event! [AuthTokenExpiredEvent(credential=OAuthCredential(type=twitch, token=vmpclokomv68jnrqsdjii5f7xhl3pt, tokenExpiresAt=java.util.GregorianCalendar[time=1525160614159,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="UTC",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=1,ERA=1,YEAR=2018,MONTH=4,WEEK_OF_YEAR=18,WEEK_OF_MONTH=1,DAY_OF_MONTH=1,DAY_OF_YEAR=121,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=7,HOUR_OF_DAY=7,MINUTE=43,SECOND=34,MILLISECOND=159,ZONE_OFFSET=0,DST_OFFSET=0], refreshToken=oemn3m1z80qlxlgxamc5vvkjomioa7bxo81hglc8cflnfdudiu, oAuthScopes=[user_read, chat_login, user_subscriptions], userId=209555712, userName=artekhound, displayName=artekhound))]
+2018-05-04 15:11:07.220 [Event Dispatch Thread] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-05-04 15:12:56.141 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 15:12:56.148 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 15:12:56.149 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 15:12:56.149 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 15:12:56.149 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 15:12:56.150 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 15:12:56.150 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 15:12:56.151 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 15:12:56.151 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 15:12:56.151 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 15:12:56.151 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 15:12:56.151 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 15:12:56.152 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 15:12:56.154 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 15:12:56.452 [JavaFX Application Thread] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-05-04 15:12:56.459 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 15:12:59.413 [JavaFX Application Thread] WARN  m.p.t.endpoints.ChannelEndpoint - PubSub Client not operating. You will not recieve any pubsub events!
+2018-05-04 15:12:59.415 [JavaFX Application Thread] WARN  m.p.twitch4j.message.irc.TwitchChat - Can't send IRC-WS Command [JOIN #artekhound]
+2018-05-04 15:12:59.418 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelState
+2018-05-04 15:12:59.418 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelModStatusChange
+2018-05-04 15:12:59.418 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelBan
+2018-05-04 15:12:59.419 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelTimeout
+2018-05-04 15:12:59.419 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Joining Channel [artekhound].
+2018-05-04 15:13:00.544 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-05-04 15:13:08.885 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-05-04 15:13:09.093 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-05-04 15:13:16.566 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [Привет].!
+2018-05-04 15:13:16.569 [Thread-16] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [Привет].
+2018-05-04 15:13:19.318 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [ЧТо делаешь?
+].!
+2018-05-04 15:13:19.320 [Thread-18] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [ЧТо делаешь?
+].
+2018-05-04 15:13:20.399 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [фпт
+].!
+2018-05-04 15:13:20.402 [Thread-20] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [фпт
+].
+2018-05-04 15:13:20.958 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [фып
+].!
+2018-05-04 15:13:20.960 [Thread-22] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [фып
+].
+2018-05-04 15:13:21.438 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [фы
+].!
+2018-05-04 15:13:21.440 [Thread-24] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [фы
+].
+2018-05-04 15:13:21.648 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [пфы
+].!
+2018-05-04 15:13:21.650 [Thread-26] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [пфы
+].
+2018-05-04 15:13:21.798 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [пфы
+].!
+2018-05-04 15:13:21.800 [Thread-28] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [пфы
+].
+2018-05-04 15:13:21.966 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [п
+ф].!
+2018-05-04 15:13:21.968 [Thread-30] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [п
+ф].
+2018-05-04 15:13:22.134 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [ып
+].!
+2018-05-04 15:13:22.136 [Thread-32] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [ып
+].
+2018-05-04 15:13:22.302 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [фып
+].!
+2018-05-04 15:13:22.304 [Thread-34] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [фып
+].
+2018-05-04 15:13:22.446 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [
+].!
+2018-05-04 15:13:22.448 [Thread-36] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [
+].
+2018-05-04 15:13:22.590 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [
+].!
+2018-05-04 15:13:22.592 [Thread-38] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [
+].
+2018-05-04 15:13:22.718 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [
+].!
+2018-05-04 15:13:22.720 [Thread-40] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [
+].
+2018-05-04 15:13:22.871 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [
+].!
+2018-05-04 15:13:22.875 [Thread-43] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [
+].
+2018-05-04 15:13:23.094 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [фып
+].!
+2018-05-04 15:13:23.096 [Thread-45] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [фып
+].
+2018-05-04 15:13:23.302 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [фы
+п].!
+2018-05-04 15:13:23.305 [Thread-47] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [фы
+п].
+2018-05-04 15:13:23.462 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [ф
+].!
+2018-05-04 15:13:23.465 [Thread-49] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [ф
+].
+2018-05-04 15:13:23.638 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [ып
+].!
+2018-05-04 15:13:23.640 [Thread-51] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [ып
+].
+2018-05-04 15:13:23.814 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [фып
+ф].!
+2018-05-04 15:13:23.816 [Thread-53] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [фып
+ф].
+2018-05-04 15:13:24.118 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [ыпф
+ы].!
+2018-05-04 15:13:24.129 [Thread-55] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [ыпф
+ы].
+2018-05-04 15:13:24.254 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [п
+ф].!
+2018-05-04 15:13:24.256 [Thread-57] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [п
+ф].
+2018-05-04 15:13:24.415 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [ып
+].!
+2018-05-04 15:13:24.418 [Thread-59] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [ып
+].
+2018-05-04 15:13:24.550 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [фып
+].!
+2018-05-04 15:13:24.552 [Thread-61] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [фып
+].
+2018-05-04 15:13:24.718 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [фы
+].!
+2018-05-04 15:13:24.719 [Thread-63] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [фы
+].
+2018-05-04 15:13:24.862 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [пфы
+].!
+2018-05-04 15:13:24.863 [Thread-65] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [пфы
+].
+2018-05-04 15:13:25.038 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [пф
+ы].!
+2018-05-04 15:13:25.214 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [п
+].!
+2018-05-04 15:13:25.422 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [фып
+].!
+2018-05-04 15:13:25.582 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [фы
+].!
+2018-05-04 15:13:25.765 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [пф
+].!
+2018-05-04 15:13:25.832 [Thread-75] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [пф
+].
+2018-05-04 15:13:25.966 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [ып
+].!
+2018-05-04 15:13:26.166 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [фы
+п].!
+2018-05-04 15:13:26.405 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [ф
+ып].!
+2018-05-04 15:13:26.637 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [
+фы].!
+2018-05-04 15:13:26.925 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [п
+].!
+2018-05-04 15:13:27.332 [Thread-83] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [
+фы].
+2018-05-04 15:13:27.653 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [фып
+ф].!
+2018-05-04 15:13:28.093 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [ып
+].!
+2018-05-04 15:13:28.832 [Thread-79] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [фы
+п].
+2018-05-04 15:13:29.445 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [ф
+п].!
+2018-05-04 15:13:30.332 [Thread-73] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [фы
+].
+2018-05-04 15:13:31.045 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [
+фп].!
+2018-05-04 15:13:31.349 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [
+].!
+2018-05-04 15:13:31.832 [Thread-95] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [
+].
+2018-05-04 15:13:33.332 [Thread-71] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [фып
+].
+2018-05-04 15:13:33.341 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [ф
+п].!
+2018-05-04 15:13:33.709 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [
+].!
+2018-05-04 15:13:34.832 [Thread-87] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [фып
+ф].
+2018-05-04 15:13:35.494 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [ф
+п].!
+2018-05-04 15:13:36.333 [Thread-91] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [ф
+п].
+2018-05-04 15:13:37.833 [Thread-67] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [пф
+ы].
+2018-05-04 15:13:39.333 [Thread-98] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [ф
+п].
+2018-05-04 15:13:40.613 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [].!
+2018-05-04 15:13:40.833 [Thread-100] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [
+].
+2018-05-04 15:13:41.581 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [].!
+2018-05-04 15:13:42.005 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [].!
+2018-05-04 15:13:42.293 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [].!
+2018-05-04 15:13:42.333 [Thread-104] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [].
+2018-05-04 15:13:42.541 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [].!
+2018-05-04 15:13:42.757 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [].!
+2018-05-04 15:13:42.925 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [].!
+2018-05-04 15:13:43.061 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [].!
+2018-05-04 15:13:43.189 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [].!
+2018-05-04 15:13:43.832 [Thread-112] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [].
+2018-05-04 15:13:45.332 [Thread-69] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [п
+].
+2018-05-04 15:13:46.832 [Thread-93] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [
+фп].
+2018-05-04 15:13:48.332 [Thread-120] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [].
+2018-05-04 15:13:49.832 [Thread-89] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [ып
+].
+2018-05-04 15:13:51.332 [Thread-108] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [].
+2018-05-04 15:13:52.833 [Thread-102] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [ф
+п].
+2018-05-04 15:13:54.333 [Thread-116] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [].
+2018-05-04 15:13:55.833 [Thread-85] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [п
+].
+2018-05-04 15:13:57.333 [Thread-81] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [ф
+ып].
+2018-05-04 15:13:58.833 [Thread-77] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [ып
+].
+2018-05-04 15:14:00.333 [Thread-114] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [].
+2018-05-04 15:14:01.833 [Thread-110] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [].
+2018-05-04 15:14:01.877 [WritingThread] INFO  m.p.t.message.pubsub.TwitchPubSub$1 - Connection to Twitch PubSub Closed by Server [wss://pubsub-edge.twitch.tv:443]
+2018-05-04 15:14:03.333 [Thread-106] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [].
+2018-05-04 15:14:04.833 [Thread-118] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [].
+2018-05-04 15:14:07.597 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artekhound] with content [~!admin
+].!
+2018-05-04 15:14:07.598 [Thread-125] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artekhound] with content [~!admin
+].
+2018-05-04 15:14:26.111 [JavaFX Application Thread] ERROR m.p.twitch4j.endpoints.TMIEndpoint - Request failed: I/O error on GET request for "http://tmi.twitch.tv/group/user/artekhound/chatters": Server returned HTTP response code: 504 for URL: http://tmi.twitch.tv/group/user/artekhound/chatters; nested exception is java.io.IOException: Server returned HTTP response code: 504 for URL: http://tmi.twitch.tv/group/user/artekhound/chatters
+2018-05-04 15:15:52.133 [JavaFX Application Thread] ERROR m.p.twitch4j.endpoints.TMIEndpoint - Request failed: I/O error on GET request for "http://tmi.twitch.tv/group/user/artekhound/chatters": Server returned HTTP response code: 504 for URL: http://tmi.twitch.tv/group/user/artekhound/chatters; nested exception is java.io.IOException: Server returned HTTP response code: 504 for URL: http://tmi.twitch.tv/group/user/artekhound/chatters
+2018-05-04 15:20:57.266 [JavaFX Application Thread] ERROR m.p.twitch4j.endpoints.TMIEndpoint - Request failed: I/O error on GET request for "http://tmi.twitch.tv/group/user/artekhound/chatters": Server returned HTTP response code: 504 for URL: http://tmi.twitch.tv/group/user/artekhound/chatters; nested exception is java.io.IOException: Server returned HTTP response code: 504 for URL: http://tmi.twitch.tv/group/user/artekhound/chatters
+2018-05-04 15:21:06.498 [JavaFX Application Thread] ERROR m.p.twitch4j.endpoints.TMIEndpoint - Request failed: null
+2018-05-04 15:21:06.651 [JavaFX Application Thread] ERROR m.p.twitch4j.endpoints.TMIEndpoint - Request failed: null
+2018-05-04 15:21:16.970 [JavaFX Application Thread] ERROR m.p.twitch4j.endpoints.TMIEndpoint - Request failed: null
+2018-05-04 15:21:27.237 [JavaFX Application Thread] ERROR m.p.twitch4j.endpoints.TMIEndpoint - Request failed: null
+2018-05-04 15:21:37.496 [JavaFX Application Thread] ERROR m.p.twitch4j.endpoints.TMIEndpoint - Request failed: null
+2018-05-04 15:21:47.758 [JavaFX Application Thread] ERROR m.p.twitch4j.endpoints.TMIEndpoint - Request failed: null
+2018-05-04 15:21:58.025 [JavaFX Application Thread] ERROR m.p.twitch4j.endpoints.TMIEndpoint - Request failed: null
+2018-05-04 15:27:09.483 [Finalizer] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-05-04 15:27:11.590 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-05-04 20:13:49.761 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 20:13:49.767 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 20:13:49.767 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 20:13:49.767 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 20:13:49.768 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 20:13:49.768 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 20:13:49.768 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 20:13:49.768 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 20:13:49.768 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 20:13:49.769 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 20:13:49.769 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 20:13:49.769 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 20:13:49.769 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 20:13:49.771 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 20:13:49.949 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 20:15:44.827 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 20:15:44.836 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 20:15:44.836 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 20:15:44.837 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 20:15:44.837 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 20:15:44.837 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 20:15:44.837 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 20:15:44.837 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 20:15:44.838 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 20:15:44.838 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 20:15:44.838 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 20:15:44.838 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 20:15:44.838 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 20:15:44.841 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 20:15:44.996 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 20:18:44.680 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 20:18:44.687 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 20:18:44.688 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 20:18:44.688 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 20:18:44.688 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 20:18:44.688 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 20:18:44.689 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 20:18:44.689 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 20:18:44.689 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 20:18:44.689 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 20:18:44.689 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 20:18:44.690 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 20:18:44.690 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 20:18:44.692 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 20:18:44.870 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 20:19:10.254 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 20:19:10.260 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 20:19:10.260 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 20:19:10.260 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 20:19:10.261 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 20:19:10.261 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 20:19:10.261 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 20:19:10.262 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 20:19:10.262 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 20:19:10.262 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 20:19:10.262 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 20:19:10.262 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 20:19:10.263 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 20:19:10.265 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 20:19:10.408 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 20:20:00.231 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 20:20:00.240 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 20:20:00.240 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 20:20:00.241 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 20:20:00.241 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 20:20:00.241 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 20:20:00.241 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 20:20:00.242 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 20:20:00.242 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 20:20:00.245 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 20:20:00.246 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 20:20:00.247 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 20:20:00.247 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 20:20:00.249 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 20:20:00.428 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 20:21:19.739 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 20:21:19.747 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 20:21:19.747 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 20:21:19.747 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 20:21:19.748 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 20:21:19.748 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 20:21:19.748 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 20:21:19.748 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 20:21:19.748 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 20:21:19.749 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 20:21:19.749 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 20:21:19.749 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 20:21:19.749 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 20:21:19.752 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 20:21:19.903 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 20:21:21.404 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Starting server...
+2018-05-04 20:21:21.633 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Building registry...
+2018-05-04 20:21:22.150 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Ratpack started for http://localhost:7090
+2018-05-04 20:21:27.306 [ratpack-compute-1-2] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=ljjhqn59prw1cgve99hzvjq6dhs97f, tokenExpiresAt=java.util.GregorianCalendar[time=1525458086787,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Moscow",offset=10800000,dstSavings=0,useDaylight=false,transitions=79,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=1,ERA=1,YEAR=2018,MONTH=4,WEEK_OF_YEAR=18,WEEK_OF_MONTH=1,DAY_OF_MONTH=4,DAY_OF_YEAR=124,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=9,HOUR_OF_DAY=21,MINUTE=21,SECOND=26,MILLISECOND=787,ZONE_OFFSET=10800000,DST_OFFSET=0], refreshToken=z1exgm5veodh796ed8hrxywr6hxmlg0aw9jwdctv971q9rirlh, oAuthScopes=[user_read, chat_login, user_subscriptions], userId=85818021, userName=artek_tv, displayName=artek_tv)]
+2018-05-04 20:21:27.333 [ratpack-compute-1-2] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-05-04 20:21:27.464 [ratpack-compute-1-4] WARN  r.e.i.DefaultProductionErrorHandler - Default production error handler used to render client error, please add a ratpack.error.ClientErrorHandler instance to your application (method: GET, uri: /robots.txt)
+2018-05-04 20:21:27.745 [ratpack-compute-1-2] WARN  r.e.i.DefaultProductionErrorHandler - Default production error handler used to render client error, please add a ratpack.error.ClientErrorHandler instance to your application (method: GET, uri: /favicon.ico)
+2018-05-04 20:21:57.534 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-05-04 20:22:06.070 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-05-04 20:22:06.275 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-05-04 20:22:10.823 [JavaFX Application Thread] ERROR m.p.twitch4j.endpoints.TMIEndpoint - Request failed: I/O error on GET request for "http://tmi.twitch.tv/group/user/null/chatters": Server returned HTTP response code: 504 for URL: http://tmi.twitch.tv/group/user/null/chatters; nested exception is java.io.IOException: Server returned HTTP response code: 504 for URL: http://tmi.twitch.tv/group/user/null/chatters
+2018-05-04 20:23:04.849 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 20:23:04.855 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 20:23:04.856 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 20:23:04.856 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 20:23:04.856 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 20:23:04.857 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 20:23:04.857 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 20:23:04.857 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 20:23:04.857 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 20:23:04.857 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 20:23:04.858 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 20:23:04.858 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 20:23:04.858 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 20:23:04.861 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 20:23:05.023 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 20:23:06.296 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Starting server...
+2018-05-04 20:23:06.479 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Building registry...
+2018-05-04 20:23:06.932 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Ratpack started for http://localhost:7090
+2018-05-04 20:23:11.242 [ratpack-compute-1-2] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=s3v4lfuuq4p0coocuvmg3dh6egxr5i, tokenExpiresAt=java.util.GregorianCalendar[time=1525458190741,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Moscow",offset=10800000,dstSavings=0,useDaylight=false,transitions=79,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=1,ERA=1,YEAR=2018,MONTH=4,WEEK_OF_YEAR=18,WEEK_OF_MONTH=1,DAY_OF_MONTH=4,DAY_OF_YEAR=124,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=9,HOUR_OF_DAY=21,MINUTE=23,SECOND=10,MILLISECOND=741,ZONE_OFFSET=10800000,DST_OFFSET=0], refreshToken=5wv3z8dc48u9y7zq2ycj9w90anea5avdddqbcvzve0r11ksgke, oAuthScopes=[user_read, chat_login, user_subscriptions], userId=85818021, userName=artek_tv, displayName=artek_tv)]
+2018-05-04 20:23:11.266 [ratpack-compute-1-2] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-05-04 20:23:15.160 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-05-04 20:23:23.583 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-05-04 20:23:23.791 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-05-04 20:23:29.150 [JavaFX Application Thread] ERROR m.p.twitch4j.endpoints.TMIEndpoint - Request failed: I/O error on GET request for "http://tmi.twitch.tv/group/user/null/chatters": Server returned HTTP response code: 504 for URL: http://tmi.twitch.tv/group/user/null/chatters; nested exception is java.io.IOException: Server returned HTTP response code: 504 for URL: http://tmi.twitch.tv/group/user/null/chatters
+2018-05-04 20:24:16.580 [WritingThread] INFO  m.p.t.message.pubsub.TwitchPubSub$1 - Connection to Twitch PubSub Closed by Server [wss://pubsub-edge.twitch.tv:443]
+2018-05-04 20:24:21.746 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelModStatusChange
+2018-05-04 20:24:21.747 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelState
+2018-05-04 20:24:21.747 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelTimeout
+2018-05-04 20:24:21.747 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelBan
+2018-05-04 20:24:21.747 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Joining Channel [null].
+2018-05-04 20:25:39.542 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 20:25:39.549 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 20:25:39.550 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 20:25:39.550 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 20:25:39.550 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 20:25:39.551 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 20:25:39.551 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 20:25:39.551 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 20:25:39.551 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 20:25:39.551 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 20:25:39.552 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 20:25:39.552 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 20:25:39.552 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 20:25:39.554 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 20:25:39.791 [JavaFX Application Thread] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-05-04 20:25:39.799 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 20:25:40.823 [JavaFX Application Thread] WARN  m.p.t.endpoints.ChannelEndpoint - PubSub Client not operating. You will not recieve any pubsub events!
+2018-05-04 20:25:40.826 [JavaFX Application Thread] WARN  m.p.twitch4j.message.irc.TwitchChat - Can't send IRC-WS Command [JOIN #artek_tv]
+2018-05-04 20:25:40.829 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelState
+2018-05-04 20:25:40.829 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelModStatusChange
+2018-05-04 20:25:40.829 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelTimeout
+2018-05-04 20:25:40.830 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelBan
+2018-05-04 20:25:40.830 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Joining Channel [artek_tv].
+2018-05-04 20:25:41.959 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-05-04 20:25:52.385 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-05-04 20:25:52.595 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-05-04 20:26:49.283 [WritingThread] INFO  m.p.t.message.pubsub.TwitchPubSub$1 - Connection to Twitch PubSub Closed by Server [wss://pubsub-edge.twitch.tv:443]
+2018-05-04 20:26:58.592 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [ы
+].!
+2018-05-04 20:27:12.197 [Thread-19] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [ы
+].
+2018-05-04 20:27:23.257 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 20:27:23.265 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 20:27:23.266 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 20:27:23.266 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 20:27:23.266 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 20:27:23.266 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 20:27:23.267 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 20:27:23.267 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 20:27:23.267 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 20:27:23.267 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 20:27:23.267 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 20:27:23.268 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 20:27:23.268 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 20:27:23.270 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 20:27:23.475 [JavaFX Application Thread] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-05-04 20:27:23.485 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 20:27:24.431 [JavaFX Application Thread] WARN  m.p.t.endpoints.ChannelEndpoint - PubSub Client not operating. You will not recieve any pubsub events!
+2018-05-04 20:27:24.434 [JavaFX Application Thread] WARN  m.p.twitch4j.message.irc.TwitchChat - Can't send IRC-WS Command [JOIN #artek_tv]
+2018-05-04 20:27:24.436 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelState
+2018-05-04 20:27:24.436 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelTimeout
+2018-05-04 20:27:24.437 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelBan
+2018-05-04 20:27:24.437 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelModStatusChange
+2018-05-04 20:27:24.437 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Joining Channel [artek_tv].
+2018-05-04 20:27:25.552 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-05-04 20:27:33.915 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-05-04 20:27:34.122 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [фыа
+].!
+2018-05-04 20:27:34.122 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-05-04 20:27:34.126 [Thread-15] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [фыа
+].
+2018-05-04 20:27:34.889 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [фыа
+].!
+2018-05-04 20:27:34.891 [Thread-17] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [фыа
+].
+2018-05-04 20:27:35.266 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [п
+].!
+2018-05-04 20:27:35.267 [Thread-19] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [п
+].
+2018-05-04 20:27:35.586 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [р
+].!
+2018-05-04 20:27:35.588 [Thread-21] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [р
+].
+2018-05-04 20:27:35.897 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [м
+].!
+2018-05-04 20:27:35.899 [Thread-23] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [м
+].
+2018-05-04 20:29:34.938 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 20:29:34.945 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 20:29:34.945 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 20:29:34.946 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 20:29:34.946 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 20:29:34.946 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 20:29:34.946 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 20:29:34.946 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 20:29:34.947 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 20:29:34.947 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 20:29:34.947 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 20:29:34.951 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 20:29:34.952 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 20:29:34.954 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 20:29:35.155 [JavaFX Application Thread] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-05-04 20:29:35.163 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 20:29:42.129 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 20:29:42.135 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 20:29:42.135 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 20:29:42.136 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 20:29:42.136 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 20:29:42.136 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 20:29:42.136 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 20:29:42.136 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 20:29:42.137 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 20:29:42.137 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 20:29:42.137 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 20:29:42.137 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 20:29:42.138 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 20:29:42.140 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 20:29:42.301 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 20:29:44.765 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Starting server...
+2018-05-04 20:29:44.956 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Building registry...
+2018-05-04 20:29:45.412 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Ratpack started for http://localhost:7090
+2018-05-04 20:29:50.764 [ratpack-compute-1-2] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=mnuoi4v928dyhu8ck0bjf18xcr0tyu, tokenExpiresAt=java.util.GregorianCalendar[time=1525458590180,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Moscow",offset=10800000,dstSavings=0,useDaylight=false,transitions=79,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=1,ERA=1,YEAR=2018,MONTH=4,WEEK_OF_YEAR=18,WEEK_OF_MONTH=1,DAY_OF_MONTH=4,DAY_OF_YEAR=124,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=9,HOUR_OF_DAY=21,MINUTE=29,SECOND=50,MILLISECOND=180,ZONE_OFFSET=10800000,DST_OFFSET=0], refreshToken=irfbr55p71l0lkc14jwck9g7r6xcpyg0mj095uncemglwppyvt, oAuthScopes=[user_read, chat_login, user_subscriptions], userId=85818021, userName=artek_tv, displayName=artek_tv)]
+2018-05-04 20:29:50.793 [ratpack-compute-1-2] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-05-04 20:30:13.534 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-05-04 20:30:21.999 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelTimeout
+2018-05-04 20:30:22.001 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelBan
+2018-05-04 20:30:22.001 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelState
+2018-05-04 20:30:22.002 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelModStatusChange
+2018-05-04 20:30:22.002 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Joining Channel [artek_tv].
+2018-05-04 20:30:22.006 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [привет
+].!
+2018-05-04 20:30:22.011 [Thread-14] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [привет
+].
+2018-05-04 20:30:22.018 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-05-04 20:30:22.223 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-05-04 20:30:23.737 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [привет
+].!
+2018-05-04 20:30:23.740 [Thread-18] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [привет
+].
+2018-05-04 20:30:24.481 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [фы
+].!
+2018-05-04 20:30:24.483 [Thread-20] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [фы
+].
+2018-05-04 20:30:24.785 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [фы
+].!
+2018-05-04 20:30:24.787 [Thread-22] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [фы
+].
+2018-05-04 20:30:25.041 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [ы
+].!
+2018-05-04 20:30:25.043 [Thread-24] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [ы
+].
+2018-05-04 20:30:25.273 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [в
+].!
+2018-05-04 20:30:25.275 [Thread-26] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [в
+].
+2018-05-04 20:30:25.483 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [а
+].!
+2018-05-04 20:30:25.487 [Thread-29] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [а
+].
+2018-05-04 20:30:25.705 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [п
+].!
+2018-05-04 20:30:25.707 [Thread-31] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [п
+].
+2018-05-04 20:31:15.016 [WritingThread] INFO  m.p.t.message.pubsub.TwitchPubSub$1 - Connection to Twitch PubSub Closed by Server [wss://pubsub-edge.twitch.tv:443]
+2018-05-04 20:32:11.807 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [п
+].!
+2018-05-04 20:32:12.168 [Thread-43] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [п
+].
+2018-05-04 20:32:24.736 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [ыа
+].!
+2018-05-04 20:32:24.743 [Thread-47] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [ыа
+].
+2018-05-04 20:32:25.769 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [ф
+].!
+2018-05-04 20:32:25.772 [Thread-49] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [ф
+].
+2018-05-04 20:32:26.463 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [с
+].!
+2018-05-04 20:32:26.466 [Thread-51] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [с
+].
+2018-05-04 20:32:26.695 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [ч
+].!
+2018-05-04 20:32:26.697 [Thread-53] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [ч
+].
+2018-05-04 20:35:45.413 [Timer-1] INFO  ratpack.server.RatpackServer - Stopping server...
+2018-05-04 20:35:45.415 [Timer-1] INFO  ratpack.server.RatpackServer - Server stopped.
+2018-05-04 20:36:14.180 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 20:36:14.185 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 20:36:14.186 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 20:36:14.186 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 20:36:14.186 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 20:36:14.187 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 20:36:14.187 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 20:36:14.187 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 20:36:14.187 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 20:36:14.187 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 20:36:14.188 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 20:36:14.188 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 20:36:14.188 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 20:36:14.190 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 20:36:14.373 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 20:36:17.803 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Starting server...
+2018-05-04 20:36:17.989 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Building registry...
+2018-05-04 20:36:18.443 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Ratpack started for http://localhost:7090
+2018-05-04 20:36:23.119 [ratpack-compute-1-2] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=tm9wgwtmqlchpjdvdz42s1d9wu07or, tokenExpiresAt=java.util.GregorianCalendar[time=1525458982593,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Moscow",offset=10800000,dstSavings=0,useDaylight=false,transitions=79,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=1,ERA=1,YEAR=2018,MONTH=4,WEEK_OF_YEAR=18,WEEK_OF_MONTH=1,DAY_OF_MONTH=4,DAY_OF_YEAR=124,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=9,HOUR_OF_DAY=21,MINUTE=36,SECOND=22,MILLISECOND=593,ZONE_OFFSET=10800000,DST_OFFSET=0], refreshToken=wv49epsnyib6ajv4wtuxt598ntxc4v7sl0mfg18ye53ez8407j, oAuthScopes=[user_read, chat_login, user_subscriptions], userId=85818021, userName=artek_tv, displayName=artek_tv)]
+2018-05-04 20:36:23.143 [ratpack-compute-1-2] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-05-04 20:36:26.749 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-05-04 20:36:32.685 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelState
+2018-05-04 20:36:32.686 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelModStatusChange
+2018-05-04 20:36:32.686 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelTimeout
+2018-05-04 20:36:32.687 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelBan
+2018-05-04 20:36:32.687 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Joining Channel [artek_tv].
+2018-05-04 20:36:32.692 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [фп
+].!
+2018-05-04 20:36:32.696 [Thread-14] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [фп
+].
+2018-05-04 20:36:34.222 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [вп
+].!
+2018-05-04 20:36:34.225 [Thread-18] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [вп
+].
+2018-05-04 20:36:34.902 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [ап
+].!
+2018-05-04 20:36:34.904 [Thread-20] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [ап
+].
+2018-05-04 20:36:35.092 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-05-04 20:36:35.292 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-05-04 20:36:35.374 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [ми
+].!
+2018-05-04 20:36:35.376 [Thread-22] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [ми
+].
+2018-05-04 20:36:35.550 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [
+].!
+2018-05-04 20:36:35.552 [Thread-24] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [
+].
+2018-05-04 20:36:35.718 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [
+].!
+2018-05-04 20:36:35.720 [Thread-26] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [
+].
+2018-05-04 20:36:35.894 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [в
+а].!
+2018-05-04 20:36:35.896 [Thread-28] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [в
+а].
+2018-05-04 20:36:36.046 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [ыв
+].!
+2018-05-04 20:36:36.048 [Thread-30] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [ыв
+].
+2018-05-04 20:36:36.207 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [пы
+в].!
+2018-05-04 20:36:36.208 [Thread-32] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [пы
+в].
+2018-05-04 20:36:36.374 [JavaFX Application Thread] DEBUG m.p.twitch4j.message.irc.TwitchChat - Sending message to channel [artek_tv] with content [п
+].!
+2018-05-04 20:36:36.376 [Thread-34] DEBUG m.p.twitch4j.message.irc.TwitchChat - Message send to Channel [artek_tv] with content [п
+].
+2018-05-04 20:41:05.138 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 20:41:05.144 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 20:41:05.145 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 20:41:05.145 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 20:41:05.145 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 20:41:05.146 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 20:41:05.146 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 20:41:05.146 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 20:41:05.146 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 20:41:05.147 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 20:41:05.147 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 20:41:05.147 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 20:41:05.147 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 20:41:05.149 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 20:41:05.311 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-05-04 20:41:08.053 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Starting server...
+2018-05-04 20:41:08.238 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Building registry...
+2018-05-04 20:41:08.694 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Ratpack started for http://localhost:7090
+2018-05-04 23:46:51.183 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-04 23:46:51.190 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-04 23:46:51.191 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-04 23:46:51.191 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-04 23:46:51.191 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-04 23:46:51.191 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-04 23:46:51.192 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-04 23:46:51.192 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-04 23:46:51.192 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-04 23:46:51.192 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-04 23:46:51.192 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-04 23:46:51.193 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-04 23:46:51.193 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-04 23:46:51.196 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-04 23:46:51.363 [JavaFX Application Thread] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.isomorphism:token-bucket:1.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.isomorphism/token-bucket/1.7/c042997e81cd4f4326dab974fe3127a7e65e34ff/token-bucket-1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.isomorphism/token-bucket/1.7/e8e59b90505b922caafc2cd7d22da86751bfc7c1/token-bucket-1.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

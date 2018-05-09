@@ -1,7 +1,6 @@
 package com.artek;
 
 import javafx.application.Platform;
-import javafx.scene.paint.Color;
 import me.philippheuer.twitch4j.events.EventSubscriber;
 import me.philippheuer.twitch4j.events.event.irc.ChannelMessageEvent;
 
@@ -31,7 +30,7 @@ public class Listeners {
         YellowGreen
     }
 
-    public static String getDate(){
+    public static String getDate() {
         Date date = new Date();
 
         String dateString = "[" + date.toLocaleString().replaceAll("^(\\S+\\s+){1}", "") + "]" + " ";
@@ -42,7 +41,7 @@ public class Listeners {
     private static final int SIZE = COLORS.length;
     private static final Random RANDOM = new Random();
 
-    public static javafx.scene.paint.Color getRandomColor()  {
+    public static javafx.scene.paint.Color getRandomColor() {
         final String myCOLOR = COLORS[RANDOM.nextInt(SIZE)].toString();
 
         return javafx.scene.paint.Color.valueOf(myCOLOR.toUpperCase());
@@ -50,13 +49,13 @@ public class Listeners {
 
 
     @EventSubscriber
-    public void onChannelMessage(ChannelMessageEvent event){
-            String user = event.getUser().getDisplayName();
-            javafx.scene.paint.Color color = getRandomColor();
+    public void onChannelMessage(ChannelMessageEvent event) {
+        String user = event.getUser().getDisplayName();
+        javafx.scene.paint.Color color = getRandomColor();
 
 //            String dateStringResult = dateString.replaceAll("\\A([^\\r\\n]*\\n){1}", "");
 
-            Platform.runLater(() -> MainApp.loader.<MainController>getController().addLabel((getDate() + user + ": " + event.getMessage()), color));
+        Platform.runLater(() -> MainApp.loader.<MainController>getController().addLabel((getDate() + user + ": " + event.getMessage()), color));
 
     }
 }
