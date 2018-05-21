@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.artek.AboutController">
+   <children>
+      <Label layoutX="139.0" layoutY="159.0" prefHeight="38.0" prefWidth="222.0" text="This program was developed by artek." />
+      <Hyperlink fx:id="aboutLink" layoutX="139.0" layoutY="203.0" onMouseClicked="#onAboutClicked" text="https://github.com/artek2001/Twichat2.0" />
+      <Label layoutX="139.0" layoutY="242.0" prefHeight="23.0" prefWidth="130.0" text="Version: 0.0.1" />
+   </children>
+</AnchorPane>

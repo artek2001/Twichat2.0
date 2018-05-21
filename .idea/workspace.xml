@@ -22,12 +22,17 @@
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/../twitch4j">
@@ -49,60 +54,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="220" column="36" lean-forward="true" selection-start-line="220" selection-start-column="36" selection-end-line="220" selection-end-column="36" />
+            <state relative-caret-position="408">
+              <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4260#4938#0" expanded="true" />
-                <element signature="e#4937#4938#0" expanded="true" />
-                <marker date="1525858679438" expanded="true" signature="3869:4492" ph="..." />
+                <marker date="1526843841235" expanded="true" signature="5216:5839" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AbstractTwitchEndpoint.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/endpoints/AbstractTwitchEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+            <state relative-caret-position="663">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hello.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="51" column="78" lean-forward="true" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwitchClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/TwitchClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="187" selection-start-line="187" selection-end-line="187" />
-              <folding>
-                <element signature="e#5731#5732#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChannelEndpoint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/endpoints/ChannelEndpoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
         </entry>
@@ -110,15 +90,28 @@
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+            <state relative-caret-position="442">
+              <caret line="40" column="102" selection-start-line="40" selection-start-column="102" selection-end-line="40" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notification.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/notification.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Listeners.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/Listeners.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1605#1622#0" expanded="true" />
-                <element signature="e#1852#1869#0" expanded="true" />
-                <element signature="e#2165#3078#0" expanded="true" />
-                <element signature="e#2647#2664#0" expanded="true" />
-                <element signature="e#3077#3078#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,19 +122,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="FxmlFile" />
         <option value="HTML File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>twitch4j.message.ir</find>
-      <find>twitch4j.message.irc</find>
-      <find>Message</find>
-      <find>event</find>
-      <find>recieved</find>
       <find>vbox</find>
       <find>displa</find>
       <find>channelName</find>
@@ -156,7 +145,6 @@
       <find>unofficia</find>
       <find>ctx.render</find>
       <find>redirec</find>
-      <find>add</find>
       <find>task</find>
       <find>hbox</find>
       <find>you are</find>
@@ -167,6 +155,12 @@
       <find>imageViewExit</find>
       <find>viewCount</find>
       <find>image</find>
+      <find>succ</find>
+      <find>imageView</find>
+      <find>addLabel</find>
+      <find>add</find>
+      <find>css</find>
+      <find>body-co</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -747,7 +741,6 @@
         <option value="$PROJECT_DIR$/src/main/fxml/hello.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/hello.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/artek/LoginControlled.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/login.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/artek/ChannelEvents.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/artek/Launcher.java" />
         <option value="$PROJECT_DIR$/src/main/resources/preloader.fxml" />
@@ -760,14 +753,21 @@
         <option value="$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/TwitchClientBuilder.java" />
         <option value="$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/auth/model/templates/newbie.html" />
         <option value="$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/auth/OAuthHandler.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/artek/Listeners.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/artek/LoginController.java" />
         <option value="$PROJECT_DIR$/target/classes/login.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/hello.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/artek/MainController.java" />
         <option value="$PROJECT_DIR$/config/credentials.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/login.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/artek/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hello.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/viewers.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/artek/ViewersController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/about.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/artek/AboutController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/NotificationCss.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/artek/notification.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/artek/Listeners.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/artek/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/artek/MainController.java" />
       </list>
     </option>
   </component>
@@ -808,11 +808,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="1196" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -820,8 +818,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -872,90 +869,44 @@
               <item name="mavenjava" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitch4j-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitch4j-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitch4j-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitch4j-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitch4j-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="philippheuer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitch4j-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="philippheuer" type="462c0819:PsiDirectoryNode" />
-              <item name="twitch4j" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitch4j-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="philippheuer" type="462c0819:PsiDirectoryNode" />
-              <item name="twitch4j" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="Module&#9;ACTION&#9;ShowModulesDependencies&#10;OAuth&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.auth.OAuthHandler&#10;redirect&#9;PSI&#9;JAVA://ratpack.handling.Handlers#redirect&#10;KEY_&#9;PSI&#9;JAVA://com.sun.deploy.util.WinRegistry#KEY_ALL_ACCESS" />
+    <property name="SearchEverywhereHistoryKey" value="createNo&#9;PSI&#9;JAVA://com.artek.MainController#createMessageNotification&#10;FollowEve&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.events.event.channel.FollowEvent&#10;Abs&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.events.event.AbstractChannelEvent&#10;EventS&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.events.EventSubscriber&#10;label&#9;PSI&#9;JAVA://com.artek.MainController#addLabel&#10;Module&#9;ACTION&#9;ShowModulesDependencies&#10;OAuth&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.auth.OAuthHandler&#10;redirect&#9;PSI&#9;JAVA://ratpack.handling.Handlers#redirect&#10;KEY_&#9;PSI&#9;JAVA://com.sun.deploy.util.WinRegistry#KEY_ALL_ACCESS" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../twitch4j-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../controlsfx-8.40.14.jar!/" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.38331854" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\artek\Desktop\mavenjava\src\main\resources" />
-      <recent name="C:\Users\artek\Desktop\twitch4j-master\src\main\resources" />
-      <recent name="C:\Users\artek\Desktop\mavenjava\src\main\java\com\artek\resources" />
-      <recent name="C:\Users\artek\Desktop\mavenjava\src\main\java\com\artek" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.artek" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\artek\Desktop\mavenjava\src" />
       <recent name="C:\Users\artek\Desktop\mavenjava\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.artek" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\artek\Desktop\mavenjava\src\main\java\com\artek" />
+      <recent name="C:\Users\artek\Desktop\mavenjava\src\main\resources" />
+      <recent name="C:\Users\artek\Desktop\mavenjava\src\main\css" />
+      <recent name="C:\Users\artek\Desktop\twitch4j-master\src\main\resources" />
+      <recent name="C:\Users\artek\Desktop\mavenjava\src\main\java\com\artek\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1415,11 +1366,29 @@
       <workItem from="1525752743142" duration="106000" />
       <workItem from="1525771452099" duration="2165000" />
       <workItem from="1525852407489" duration="7078000" />
+      <workItem from="1525862305825" duration="334000" />
+      <workItem from="1525976657010" duration="1636000" />
+      <workItem from="1526016504091" duration="135000" />
+      <workItem from="1526016731892" duration="33000" />
+      <workItem from="1526037387039" duration="3503000" />
+      <workItem from="1526066904414" duration="1624000" />
+      <workItem from="1526122163282" duration="2004000" />
+      <workItem from="1526143049529" duration="1357000" />
+      <workItem from="1526146588294" duration="2055000" />
+      <workItem from="1526148708587" duration="148000" />
+      <workItem from="1526154068399" duration="595000" />
+      <workItem from="1526499487949" duration="262000" />
+      <workItem from="1526554645505" duration="17000" />
+      <workItem from="1526753789096" duration="10000" />
+      <workItem from="1526809688966" duration="6067000" />
+      <workItem from="1526820179943" duration="510000" />
+      <workItem from="1526841430586" duration="2429000" />
+      <workItem from="1526930494203" duration="257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82593000" />
+    <option name="totallyTimeSpent" value="105569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1432,6 +1401,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.40625" />
@@ -1440,36 +1410,36 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
-      <window_info anchor="right" id="Structure" order="14" sideWeight="0.5339266" side_tool="true" weight="0.21375267" />
+      <window_info anchor="right" id="Structure" order="14" sideWeight="0.5339266" side_tool="true" weight="0.17270789" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.48080134" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40513393" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32925472" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.328125" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32924107" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.40625" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.39732143" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.51897323" weight="0.24441965" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4799107" visible="true" weight="0.2585288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47767857" visible="true" weight="0.24040511" />
       <window_info anchor="right" id="Bean Validation" order="12" weight="0.32995737" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328125" />
       <window_info anchor="right" id="Gradle" order="11" />
       <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info id="Favorites" order="6" sideWeight="0.52008927" side_tool="true" weight="0.2585288" />
+      <window_info id="Favorites" order="6" sideWeight="0.5223214" side_tool="true" weight="0.27452025" />
       <window_info anchor="right" id="Properties" order="7" />
       <window_info id="Nl-Palette" order="1" />
       <window_info anchor="right" id="Coverage" order="13" sideWeight="0.51919866" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.328125" />
       <window_info anchor="right" id="JetGradle" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="13" />
       <window_info anchor="bottom" id="Profiler" order="9" />
       <window_info anchor="right" id="Module Dependencies" order="11" weight="0.32995737" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.328125" />
       <window_info anchor="bottom" id="Application Servers" order="8" />
       <window_info anchor="bottom" id="Build" order="16" weight="0.32924107" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1484,7 +1454,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1492,95 +1462,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/ChannelEvents.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/v0.10.0/twitch4j-v0.10.0.jar!/me/philippheuer/twitch4j/events/event/channel/CheerEvent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/annotation/RetentionPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/v0.10.0/twitch4j-v0.10.0.jar!/me/philippheuer/twitch4j/events/EventSubscriber.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/SplashScreenLoader.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/Launcher.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
-          <folding>
-            <element signature="e#66921#66922#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/event/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="198" selection-start-line="198" selection-end-line="198" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="2501" selection-start-line="2501" selection-end-line="2501" />
-          <folding>
-            <element signature="e#92668#92669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/stage/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/v0.10.0/twitch4j-v0.10.0.jar!/me/philippheuer/twitch4j/message/MessageInterface.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/philippheuer/twitch4j/enums/TwitchScopes.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/philippheuer/twitch4j/TwitchClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/philippheuer/twitch4j/TwitchClientBuilder.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/v0.10.0/twitch4j-v0.10.0-sources.jar!/me/philippheuer/twitch4j/message/MessageInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="91" column="61" selection-start-line="91" selection-start-column="61" selection-end-line="91" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/v0.10.0/twitch4j-v0.10.0-sources.jar!/me/philippheuer/twitch4j/enums/TwitchScopes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j/src/main/java/me/philippheuer/twitch4j/events/IListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../twitch4j/src/main/java/me/philippheuer/twitch4j/events/EventDispatcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -1714,53 +1595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/Listeners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/login.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/exit.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/settings.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/view.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/commands.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/TwitchClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="187" selection-start-line="187" selection-end-line="187" />
-          <folding>
-            <element signature="e#5731#5732#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/auth/OAuthHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1037">
@@ -1768,58 +1602,237 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/credentials.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hello.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/endpoints/ChannelEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="51" column="78" lean-forward="true" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="78" />
+        <state relative-caret-position="1105">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/endpoints/ChannelEndpoint.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/control/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="290">
+          <caret line="396" column="35" selection-start-line="396" selection-start-column="35" selection-end-line="396" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="260" column="12" selection-start-line="260" selection-start-column="12" selection-end-line="260" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/message/irc/listener/IRCEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/EventSubscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/event/irc/IRCMessageEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3144">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/ViewersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="26" column="99" selection-start-line="26" selection-start-column="99" selection-end-line="26" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/event/channel/FollowEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/event/AbstractChannelEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/AboutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/TwitchClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="308" column="7" selection-start-line="308" selection-start-column="7" selection-end-line="308" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/event/irc/ChannelMessageEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="2235" selection-start-line="2235" selection-end-line="2235" />
+          <folding>
+            <element signature="e#66921#66922#0" expanded="true" />
+            <element signature="e#66966#66967#0" expanded="true" />
+            <element signature="e#83916#83917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="488" selection-start-line="488" selection-end-line="488" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/EventDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="260" selection-start-line="260" selection-end-line="260" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/event/irc/PrivateMessageEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/message/irc/TwitchChat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../controlsfx-8.40.14.jar!/org/controlsfx/control/NotificationPane.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1371">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/controlsfx-8.40.14-sources.jar!/org/controlsfx/control/NotificationPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2011">
+          <caret line="229" column="83" selection-start-line="229" selection-start-column="80" selection-end-line="229" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../controlsfx-8.40.14.jar!/org/controlsfx/control/notificationpane.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="79" lean-forward="true" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../controlsfx-8.40.14.jar!/org/controlsfx/control/notificationpopup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="56" column="19" lean-forward="true" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/notification.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1605#1622#0" expanded="true" />
-            <element signature="e#1852#1869#0" expanded="true" />
-            <element signature="e#2165#3078#0" expanded="true" />
-            <element signature="e#2647#2664#0" expanded="true" />
-            <element signature="e#3077#3078#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="40" column="102" selection-start-line="40" selection-start-column="102" selection-end-line="40" selection-end-column="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/Listeners.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="220" column="36" lean-forward="true" selection-start-line="220" selection-start-column="36" selection-end-line="220" selection-end-column="36" />
+        <state relative-caret-position="901">
+          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4260#4938#0" expanded="true" />
-            <element signature="e#4937#4938#0" expanded="true" />
-            <marker date="1525858679438" expanded="true" signature="3869:4492" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+        <state relative-caret-position="663">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/endpoints/AbstractTwitchEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../controlsfx-8.40.14.jar!/org/controlsfx/control/Notifications.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/controlsfx-8.40.14-sources.jar!/org/controlsfx/control/Notifications.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5049">
+          <caret line="366" column="37" selection-start-line="366" selection-start-column="37" selection-end-line="366" selection-end-column="37" />
+          <folding>
+            <element signature="e#12971#12972#0" expanded="true" />
+            <element signature="e#13027#13028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <marker date="1526843841235" expanded="true" signature="5216:5839" ph="..." />
           </folding>
         </state>
       </provider>

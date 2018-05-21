@@ -3,6 +3,8 @@ package com.artek;
 import javafx.application.Platform;
 import me.philippheuer.twitch4j.events.EventSubscriber;
 import me.philippheuer.twitch4j.events.event.irc.ChannelMessageEvent;
+import me.philippheuer.twitch4j.events.event.irc.PrivateMessageEvent;
+import org.controlsfx.control.Notifications;
 
 import java.util.Date;
 import java.util.Random;
@@ -50,12 +52,25 @@ public class Listeners {
 
     @EventSubscriber
     public void onChannelMessage(ChannelMessageEvent event) {
+
         String user = event.getUser().getDisplayName();
+
         javafx.scene.paint.Color color = getRandomColor();
 
 //            String dateStringResult = dateString.replaceAll("\\A([^\\r\\n]*\\n){1}", "");
-
+        if (MainController.isClosed) {
+            Platform.runLater(() -> MainApp.loader.<MainController>getController().createMessageNotification(getDate() + user + ": " + event.getMessage()));
+        }
         Platform.runLater(() -> MainApp.loader.<MainController>getController().addLabel((getDate() + user + ": " + event.getMessage()), color));
 
+
+
+
+    }
+
+    @EventSubscriber
+    public void onPrivateMessage(PrivateMessageEvent event) {
+        System.out.println("Private Message sent");
+        System.out.println(event.getMessage());
     }
 }

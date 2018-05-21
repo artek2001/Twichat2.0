@@ -1,5 +1,6 @@
 package com.artek;
 
+import com.aquafx_project.AquaFx;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -22,6 +23,7 @@ public class MainApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         //Initializing twitch client
+        stage = primaryStage;
         loader = new FXMLLoader(getClass().getClassLoader().getResource("hello.fxml"));
         Parent root = loader.load();
 
@@ -29,7 +31,7 @@ public class MainApp extends Application {
         primaryStage.setTitle("Twichat");
 
         Scene sceneMain = new Scene(root, 400, 550);
-
+        sceneMain.getStylesheets().add(getClass().getResource("notification.css").toExternalForm());
 
         primaryStage.setScene(sceneMain);
         primaryStage.show();
@@ -37,16 +39,16 @@ public class MainApp extends Application {
 
         TwitchClient twitchClient = TwitchClientBuilder.init()
                 .withClientId("1bt8jtsi7qcion753bqgczo9tft7kx")
-                .withClientSecret("8g91iubhamc5980g1jgxgpqsr0xu3c")
+                .withClientSecret("piyenqljthtxfrkk45nb554sjcxnyq")
                 .withAutoSaveConfiguration(true)
                 .withConfigurationDirectory(new File("config"))
                 // Get your token at: https://twitchapps.com/tmi/
                 .withListener(new Listeners())
                 .build();
         this.twitchClient = twitchClient;
-        this.stage = primaryStage;
 
-        FXMLLoader loader;
+
+        FXMLLoader loaderTemp;
         System.out.println("Launched");
 
 
@@ -56,20 +58,24 @@ public class MainApp extends Application {
             //register listeners for the channel
             twitchClient.getChannelEndpoint(channelName).registerEventListener();
             twitchClient.connect();
-            loader = new FXMLLoader(getClass().getClassLoader().getResource("hello.fxml"));
-        } else {
-            loader = new FXMLLoader(getClass().getClassLoader().getResource("login.fxml"));
 
+        } else {
+            loaderTemp = new FXMLLoader(getClass().getClassLoader().getResource("login.fxml"));
+            this.loader = loaderTemp;
+            root = loader.load();
+            primaryStage.setScene(new Scene(root, 400, 550));
         }
-        this.loader = loader;
-        root = loader.load();
-        primaryStage.setScene(new Scene(root, 400, 550));
+
+
+
 
 
     }
 
 
     public static void main(String[] args) throws Exception {
+        AquaFx.style();
+
         launch(args);
 
     }

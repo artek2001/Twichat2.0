@@ -1,37 +1,36 @@
 package com.artek;
 
+import com.sun.javafx.scene.control.skin.TextAreaSkin;
+import com.sun.javafx.scene.control.skin.TextFieldSkin;
 import javafx.application.Platform;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
-import javafx.concurrent.Task;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.ScrollPane;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
-import javafx.scene.paint.*;
 import javafx.scene.paint.Color;
-import javafx.scene.text.*;
+import javafx.scene.text.Font;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
+import lombok.Builder;
+import org.controlsfx.control.Notifications;
 import sun.applet.Main;
-import sun.print.resources.serviceui_zh_TW;
-
-import java.awt.*;
+import sun.font.FontFamily;
 
 import java.io.IOException;
 import java.net.URL;
-import java.util.Random;
+import java.util.List;
 import java.util.ResourceBundle;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -40,6 +39,7 @@ import java.util.TimerTask;
  * Created by artek on 24.04.2018.
  */
 public class MainController implements Initializable {
+    static boolean isClosed = false;
     @FXML
     Button exitBtn;
     @FXML
@@ -72,6 +72,7 @@ public class MainController implements Initializable {
             MainApp.twitchClient.getMessageInterface().sendMessage(MainApp.channelName, textMessage);
             Platform.runLater(() -> MainApp.loader.<MainController>getController().addLabel((Listeners.getDate() + user + ": " + textMessage), Color.BLUE));
 
+
         }
 
 
@@ -81,6 +82,7 @@ public class MainController implements Initializable {
 
         System.out.println(text);
         Label label = new Label(text);
+
         label.setMaxWidth(390);
 
 
@@ -101,10 +103,44 @@ public class MainController implements Initializable {
         label.setTextFill(color);
 
 
-        this.vbox.getChildren().add(label);
+        this.vbox.getChildren().addAll(label);
     }
 
     public void initialize(URL location, ResourceBundle resources) {
+        TextAreaSkin customTextAreaSkin = new TextAreaSkin(textArea) {
+            @Override
+            public void populateContextMenu(ContextMenu contextMenu) {
+                super.populateContextMenu(contextMenu);
+                MenuItem aboutMenuItem = new MenuItem("About");
+                aboutMenuItem.setOnAction(event -> {
+
+                    FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("about.fxml"));
+
+                    Parent root1 = null;
+                    try {
+                        root1 = (Parent) fxmlLoader.load();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+
+                    Stage stage = new Stage();
+
+
+                    stage.initModality(Modality.WINDOW_MODAL);
+                    stage.initOwner(MainApp.stage);
+                    stage.setTitle("About");
+                    stage.setResizable(false);
+                    stage.setScene(new Scene(root1, 500, 400));
+                    stage.showAndWait();
+
+                });
+
+                contextMenu.getItems().add(new SeparatorMenuItem());
+                contextMenu.getItems().add(aboutMenuItem);
+            }
+        };
+
+        textArea.setSkin(customTextAreaSkin);
 
         ImageView imageView = new ImageView(new Image(getClass().getResourceAsStream("/exit.png")));
 
@@ -191,6 +227,23 @@ public class MainController implements Initializable {
 //                }
 //            }
 //        }).start();
+        onTopBtn.getStyleClass().add("button");
+
+        //TODO Implement push notifications
+        MainApp.stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+            @Override
+            public void handle(WindowEvent event) {
+                isClosed = true;
+                System.out.println("Stage is closed");
+            }
+        });
+        MainApp.stage.setOnShown(new EventHandler<WindowEvent>() {
+            @Override
+            public void handle(WindowEvent event) {
+                isClosed = false;
+                System.out.println("Stage is opened");
+            }
+        });
     }
 
     public void setViewLiveStatus() throws NullPointerException {
@@ -224,4 +277,34 @@ public class MainController implements Initializable {
         MainApp.twitchClient.getCredentialManager().getCredentialFile().delete();
         MainApp.twitchClient.getCredentialManager().getOAuthCredentials().clear();
     }
+
+    public void viewCountWindowOn(MouseEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("viewers.fxml"));
+
+        Parent root1 = (Parent) fxmlLoader.load();
+        Stage stage = new Stage();
+
+
+        stage.initModality(Modality.WINDOW_MODAL);
+        stage.initOwner(MainApp.stage);
+        stage.setTitle("Viewers");
+        stage.setResizable(false);
+        stage.setScene(new Scene(root1, 500, 400));
+        stage.showAndWait();
+    }
+
+    public static List<String> getViewers() {
+        return MainApp.twitchClient.getTMIEndpoint().getChatters(MainApp.channelName).getViewers();
+
+    }
+
+    public void createMessageNotification(String textMessage) {
+
+        Notifications.create()
+                .title("New Message")
+                .text(textMessage)
+                .show();
+        System.out.println("Notification created");
+    }
+
 }
