@@ -11,6 +11,8 @@ import javafx.scene.control.ListView;
 import javafx.scene.control.MenuItem;
 
 import java.net.URL;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;

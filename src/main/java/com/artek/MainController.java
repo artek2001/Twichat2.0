@@ -5,6 +5,7 @@ import com.sun.javafx.scene.control.skin.TextFieldSkin;
 import javafx.application.Platform;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -61,7 +62,9 @@ public class MainController implements Initializable {
     @FXML
     public static String liveStatusText = "offline";
 
-    public static String viewCountString;
+    public static String viewCountString = "0";
+
+    public FXMLLoader privateMessageLoader = null;
 
     public void onEnter(KeyEvent event) {
         if (event.getCode() == KeyCode.ENTER) {
@@ -188,7 +191,7 @@ public class MainController implements Initializable {
                             setViewLiveStatus();
                         } catch (NullPointerException e) {
                             setViewLiveStatus();
-                            e.printStackTrace();
+
                         }
 
                         Platform.runLater(() -> {
@@ -246,9 +249,11 @@ public class MainController implements Initializable {
         });
     }
 
-    public void setViewLiveStatus() throws NullPointerException {
+    public void setViewLiveStatus() {
         //getting view count and live status
-        MainController.viewCountString = String.valueOf(MainApp.twitchClient.getTMIEndpoint().getChatters(MainApp.channelName).getViewers().size());
+        System.out.println(MainApp.twitchClient.getTMIEndpoint().getChatters(MainApp.channelName).getViewers().size());
+            MainController.viewCountString = String.valueOf(MainApp.twitchClient.getTMIEndpoint().getChatters(MainApp.channelName).getViewers().size());
+        System.out.println(MainController.viewCountString + " people are watching your stream");
         if (MainApp.twitchClient.getStreamEndpoint().isLive(MainApp.twitchClient.getChannelEndpoint(MainApp.channelName).getChannel())) {
             MainController.liveStatusText = "Online";
         } else {
@@ -307,4 +312,87 @@ public class MainController implements Initializable {
         System.out.println("Notification created");
     }
 
+    public void createPrivateMessageNotification(String user, String textMessage) {
+        if (privateMessageLoader != null) {
+            if (user.equals(MainApp.loader.<MainController>getController().privateMessageLoader.<PrivateMessageController>getController().fromUser)) {
+                if (MainApp.loader.<MainController>getController().privateMessageLoader.<PrivateMessageController>getController().stage.isShowing()) {
+
+                } else {
+                    Notifications.create()
+                            .title("New Message")
+                            .text(textMessage)
+                            .onAction(new EventHandler<ActionEvent>() {
+                                @Override
+                                public void handle(ActionEvent event) {
+                                    MainApp.loader.<MainController>getController().privateMessageLoader.<PrivateMessageController>getController().stage.show();
+                                }
+                            })
+                            .show();
+
+                }
+            }
+        }
+        else {
+                Notifications.create()
+                        .title("New Message")
+                        .text(textMessage)
+
+                        //Triggered when clicking on notification
+
+                        .onAction(new EventHandler<ActionEvent>() {
+                            @Override
+                            public void handle(ActionEvent event) {
+
+                                if (privateMessageLoader != null) {
+                                    if (user.equals(MainApp.loader.<MainController>getController().privateMessageLoader.<PrivateMessageController>getController().fromUser)) {
+                                        if (MainApp.loader.<MainController>getController().privateMessageLoader.<PrivateMessageController>getController().stage.isShowing()) {
+                                            return;
+                                        }
+                                        else {
+                                            MainApp.loader.<MainController>getController().privateMessageLoader.<PrivateMessageController>getController().stage.show();
+                                        }
+                                    }
+                                    MainApp.loader.<MainController>getController().privateMessageLoader.<PrivateMessageController>getController().stage.close();
+
+                                }
+
+                                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("privateMessage.fxml"));
+                                privateMessageLoader = fxmlLoader;
+                                Parent root1;
+                                try {
+
+
+                                    root1 = (Parent) fxmlLoader.load();
+                                    Stage stage = new Stage();
+
+
+                                    stage.initModality(Modality.WINDOW_MODAL);
+                                    //                            stage.initOwner(MainApp.stage);
+                                    stage.setTitle("Chatting with " + user);
+                                    stage.setResizable(false);
+                                    stage.setScene(new Scene(root1, 500, 400));
+                                    stage.show();
+                                    Platform.runLater(() -> {
+                                        MainApp.loader.<MainController>getController().privateMessageLoader.<PrivateMessageController>getController().setFromUser(user);
+
+                                        MainApp.loader.<MainController>getController().privateMessageLoader.<PrivateMessageController>getController().addLastMessages(
+                                                MainApp.loader.<MainController>getController().privateMessageLoader.<PrivateMessageController>getController().fromUser
+                                        );
+
+
+
+
+                                    });
+                                } catch (IOException e) {
+                                    e.printStackTrace();
+                                }
+
+                            }
+                        })
+                        .show();
+        }
+        System.out.println("Private Message Notification created");
+    }
+
 }
+

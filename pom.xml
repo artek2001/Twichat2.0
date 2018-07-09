@@ -57,12 +57,16 @@
     </repositories>
 
     <dependencies>
-
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.11</version>
+        </dependency>
 
         <!--<dependency>-->
             <!--<groupId>com.github.twitch4j</groupId>-->
             <!--<artifactId>twitch4j</artifactId>-->
-            <!--<version>v0.10.0</version>-->
+            <!--<version>v0.10.2</version>-->
 
         <!--</dependency>-->
 

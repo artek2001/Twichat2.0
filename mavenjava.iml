@@ -74,7 +74,8 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="Twitch4J" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.11" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.protobuf:protobuf-java:2.6.0" level="project" />
     <orderEntry type="module" module-name="Twitch4J_integration" />
     <orderEntry type="module" module-name="Twitch4J_main" />
     <orderEntry type="module" module-name="Twitch4J_test" />

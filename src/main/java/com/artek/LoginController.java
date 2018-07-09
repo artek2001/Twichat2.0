@@ -47,13 +47,15 @@ public class LoginController {
         } else {
             loginBtn.setDisable(true);
             loginBtn.setStyle("-fx-background-color: green;");
+
             MainApp.twitchClient.getCredentialManager().getOAuthTwitch().requestPermissionsFor("IRC",
-                    TwitchScopes.USER_READ,
-                    TwitchScopes.USER_SUBSCRIPTIONS,
                     TwitchScopes.CHAT_LOGIN,
-                    TwitchScopes.CHANNEL_EDITOR
+                    TwitchScopes.CHANNEL_SUBSCRIPTIONS,
+                    TwitchScopes.CHANNEL_READ,
+                    TwitchScopes.USER_READ
+
             );
-            ProgressBar pb = new ProgressBar(-1.0);
+            ProgressBar pb = new ProgressBar(1.0);
             Label statusLabel = new Label("Waiting for token");
 
             Platform.runLater(() -> {

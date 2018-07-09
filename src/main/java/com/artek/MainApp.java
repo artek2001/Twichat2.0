@@ -1,6 +1,7 @@
 package com.artek;
 
 import com.aquafx_project.AquaFx;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,6 +11,7 @@ import me.philippheuer.twitch4j.TwitchClient;
 import me.philippheuer.twitch4j.TwitchClientBuilder;
 
 import java.io.File;
+import java.sql.*;
 
 /**
  * Created by artek on 24.04.2018.
@@ -20,9 +22,27 @@ public class MainApp extends Application {
     public static FXMLLoader loader;
     public static String channelName;
 
+
     @Override
     public void start(Stage primaryStage) throws Exception {
+
+
+
+
         //Initializing twitch client
+
+
+
+        TwitchClient twitchClient = TwitchClientBuilder.init()
+                .withClientId("1bt8jtsi7qcion753bqgczo9tft7kx")
+                .withClientSecret("01c9pdtfwrfuza5o795h489nfxgrah")
+                .withAutoSaveConfiguration(true)
+                .withConfigurationDirectory(new File("config"))
+                // Get your token at: https://twitchapps.com/tmi/
+                .withListener(new Listeners())
+                .build();
+        this.twitchClient = twitchClient;
+
         stage = primaryStage;
         loader = new FXMLLoader(getClass().getClassLoader().getResource("hello.fxml"));
         Parent root = loader.load();
@@ -35,19 +55,6 @@ public class MainApp extends Application {
 
         primaryStage.setScene(sceneMain);
         primaryStage.show();
-
-
-        TwitchClient twitchClient = TwitchClientBuilder.init()
-                .withClientId("1bt8jtsi7qcion753bqgczo9tft7kx")
-                .withClientSecret("piyenqljthtxfrkk45nb554sjcxnyq")
-                .withAutoSaveConfiguration(true)
-                .withConfigurationDirectory(new File("config"))
-                // Get your token at: https://twitchapps.com/tmi/
-                .withListener(new Listeners())
-                .build();
-        this.twitchClient = twitchClient;
-
-
         FXMLLoader loaderTemp;
         System.out.println("Launched");
 
@@ -74,6 +81,7 @@ public class MainApp extends Application {
 
 
     public static void main(String[] args) throws Exception {
+
         AquaFx.style();
 
         launch(args);
