@@ -6006,3 +6006,120 @@ ratpack.handling.internal.DoubleTransmissionException: attempt at double transmi
 2018-07-02 12:44:54.388 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
 2018-07-02 12:45:03.542 [ratpack-compute-1-2] ERROR m.p.t.endpoints.KrakenEndpoint - RestException: RestError(error=null, status=400, message=Invalid authorization code)
 2018-07-02 12:45:05.042 [ratpack-compute-1-4] WARN  r.e.i.DefaultProductionErrorHandler - Default production error handler used to render client error, please add a ratpack.error.ClientErrorHandler instance to your application (method: GET, uri: /robots.txt)
+2018-07-18 21:58:35.338 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-07-18 21:58:35.355 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-07-18 21:58:35.356 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-07-18 21:58:35.356 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-07-18 21:58:35.356 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-07-18 21:58:35.356 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-07-18 21:58:35.356 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-07-18 21:58:35.357 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-07-18 21:58:35.357 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-07-18 21:58:35.357 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-07-18 21:58:35.357 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-07-18 21:58:35.357 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-07-18 21:58:35.358 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-07-18 21:58:35.364 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-07-18 21:58:35.592 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-07-18 21:58:35.592 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-07-18 21:58:36.513 [Timer-1] INFO  m.p.u.rest.LoggingRequestInterceptor - Request: [GET] http://tmi.twitch.tv/group/user/null/chatters
+2018-07-18 21:58:36.513 [Timer-1] INFO  m.p.u.rest.LoggingRequestInterceptor - Headers: {Accept=[application/vnd.twitchtv.v5+json], Content-Length=[0], User-Agent=[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36], Client-ID=[1bt8jtsi7qcion753bqgczo9tft7kx]}
+2018-07-18 21:58:36.513 [Timer-1] INFO  m.p.u.rest.LoggingRequestInterceptor - Request: [GET] http://tmi.twitch.tv/group/user/null/chatters
+2018-07-18 21:58:36.513 [Timer-1] INFO  m.p.u.rest.LoggingRequestInterceptor - Headers: {Accept=[application/vnd.twitchtv.v5+json], Content-Length=[0], User-Agent=[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36], Client-ID=[1bt8jtsi7qcion753bqgczo9tft7kx]}
+2018-07-18 21:58:49.868 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Starting server...
+2018-07-18 21:58:50.079 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Building registry...
+2018-07-18 21:58:50.662 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Ratpack started for http://localhost:7090
+2018-07-18 21:59:56.631 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-07-18 21:59:56.640 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-07-18 21:59:56.641 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-07-18 21:59:56.641 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-07-18 21:59:56.641 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-07-18 21:59:56.641 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-07-18 21:59:56.641 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-07-18 21:59:56.641 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-07-18 21:59:56.641 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-07-18 21:59:56.642 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-07-18 21:59:56.642 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-07-18 21:59:56.642 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-07-18 21:59:56.642 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-07-18 21:59:56.645 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-07-18 21:59:56.876 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-07-18 21:59:56.877 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-07-18 21:59:57.856 [Timer-1] INFO  m.p.u.rest.LoggingRequestInterceptor - Request: [GET] http://tmi.twitch.tv/group/user/null/chatters
+2018-07-18 21:59:57.857 [Timer-1] INFO  m.p.u.rest.LoggingRequestInterceptor - Headers: {Accept=[application/vnd.twitchtv.v5+json], Content-Length=[0], User-Agent=[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36], Client-ID=[1bt8jtsi7qcion753bqgczo9tft7kx]}
+2018-07-18 21:59:57.857 [Timer-1] INFO  m.p.u.rest.LoggingRequestInterceptor - Request: [GET] http://tmi.twitch.tv/group/user/null/chatters
+2018-07-18 21:59:57.857 [Timer-1] INFO  m.p.u.rest.LoggingRequestInterceptor - Headers: {Accept=[application/vnd.twitchtv.v5+json], Content-Length=[0], User-Agent=[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36], Client-ID=[1bt8jtsi7qcion753bqgczo9tft7kx]}
+2018-07-18 21:59:59.611 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Starting server...
+2018-07-18 21:59:59.794 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Building registry...
+2018-07-18 22:00:00.342 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Ratpack started for http://localhost:7090
+2018-07-18 22:03:58.531 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-07-18 22:03:58.538 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-07-18 22:03:58.539 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-07-18 22:03:58.539 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-07-18 22:03:58.539 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-07-18 22:03:58.539 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-07-18 22:03:58.539 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-07-18 22:03:58.539 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-07-18 22:03:58.540 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-07-18 22:03:58.540 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-07-18 22:03:58.540 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-07-18 22:03:58.540 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-07-18 22:03:58.540 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-07-18 22:03:58.542 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-07-18 22:03:58.758 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-07-18 22:03:58.759 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-07-18 22:03:59.838 [Timer-1] INFO  m.p.u.rest.LoggingRequestInterceptor - Request: [GET] http://tmi.twitch.tv/group/user/null/chatters
+2018-07-18 22:03:59.839 [Timer-1] INFO  m.p.u.rest.LoggingRequestInterceptor - Headers: {Accept=[application/vnd.twitchtv.v5+json], Content-Length=[0], User-Agent=[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36], Client-ID=[1bt8jtsi7qcion753bqgczo9tft7kx]}
+2018-07-18 22:03:59.839 [Timer-1] INFO  m.p.u.rest.LoggingRequestInterceptor - Request: [GET] http://tmi.twitch.tv/group/user/null/chatters
+2018-07-18 22:03:59.839 [Timer-1] INFO  m.p.u.rest.LoggingRequestInterceptor - Headers: {Accept=[application/vnd.twitchtv.v5+json], Content-Length=[0], User-Agent=[Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36], Client-ID=[1bt8jtsi7qcion753bqgczo9tft7kx]}
+2018-07-18 22:07:50.065 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-07-18 22:07:50.072 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-07-18 22:07:50.073 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-07-18 22:07:50.073 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-07-18 22:07:50.073 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-07-18 22:07:50.073 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-07-18 22:07:50.073 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-07-18 22:07:50.074 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-07-18 22:07:50.074 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-07-18 22:07:50.074 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-07-18 22:07:50.074 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-07-18 22:07:50.074 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-07-18 22:07:50.075 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-07-18 22:07:50.077 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-07-18 22:07:50.302 [JavaFX-Launcher] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-07-18 22:07:50.311 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-07-18 22:07:50.313 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-07-18 22:07:51.149 [JavaFX-Launcher] WARN  m.p.t.endpoints.ChannelEndpoint - PubSub Client not operating. You will not recieve any pubsub events!
+2018-07-18 22:07:51.152 [JavaFX-Launcher] WARN  m.p.twitch4j.message.irc.TwitchChat - Can't send IRC-WS Command [JOIN #artek_tv]
+2018-07-18 22:07:51.156 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelState
+2018-07-18 22:07:51.156 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelBan
+2018-07-18 22:07:51.156 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelTimeout
+2018-07-18 22:07:51.157 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelModStatusChange
+2018-07-18 22:07:51.157 [JavaFX-Launcher] DEBUG m.p.twitch4j.message.irc.TwitchChat - Joining Channel [artek_tv].
+2018-07-18 22:07:52.283 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-07-18 22:07:57.263 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Starting server...
+2018-07-18 22:07:57.426 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Building registry...
+2018-07-18 22:07:57.491 [Finalizer] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-07-18 22:07:57.493 [Finalizer] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: No valid IRC Credential! - Retrying ...
+2018-07-18 22:07:58.023 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Ratpack started for http://localhost:7090
+2018-07-18 22:08:00.644 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-07-18 22:08:00.861 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-07-18 22:09:10.877 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-07-18 22:09:10.884 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-07-18 22:09:10.885 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-07-18 22:09:10.885 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-07-18 22:09:10.885 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-07-18 22:09:10.885 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-07-18 22:09:10.886 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-07-18 22:09:10.886 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-07-18 22:09:10.886 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-07-18 22:09:10.886 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-07-18 22:09:10.886 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-07-18 22:09:10.887 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-07-18 22:09:10.887 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-07-18 22:09:10.889 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-07-18 22:09:11.064 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-07-18 22:09:11.065 [JavaFX-Launcher] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener Listeners#onChannelMessage
+2018-07-18 22:09:12.854 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Starting server...
+2018-07-18 22:09:13.012 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Building registry...
+2018-07-18 22:09:13.568 [JavaFX Application Thread] INFO  ratpack.server.RatpackServer - Ratpack started for http://localhost:7090

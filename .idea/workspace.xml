@@ -1,286 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mavenjava:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="739bdb80-77cb-4f8e-a455-4cb1e505f4b4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Twitch4J.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Twitch4J.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Twitch4J_integration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Twitch4J_integration.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Twitch4J_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Twitch4J_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Twitch4J_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Twitch4J_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/credentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/credentials.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenjava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mavenjava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/artek/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/artek/Listeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/artek/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/artek/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/artek/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/artek/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/artek/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/artek/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hello.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hello.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/artek/Listeners$Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/artek/Listeners$Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/artek/Listeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/artek/Listeners.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/artek/LoginController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/artek/LoginController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/artek/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/artek/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/artek/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/artek/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/artek/MainController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/artek/MainController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/artek/MainController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/artek/MainController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/artek/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/artek/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hello.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/client.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/config/commands.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/config/credentials.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/args4j-2.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/aspectjrt-1.8.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/caffeine-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/commons-io-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/commons-lang3-3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/expiringmap-0.5.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/guava-19.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/jackson-core-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/jackson-databind-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/jackson-dataformat-yaml-2.7.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/jackson-datatype-guava-2.7.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/jackson-datatype-jdk8-2.7.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/jackson-datatype-jsr310-2.7.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/javassist-3.19.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/jcabi-aspects-0.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/jcabi-log-0.17.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/lombok-1.16.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/netty-buffer-4.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/netty-codec-4.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/netty-codec-http-4.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/netty-common-4.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/netty-handler-4.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/netty-resolver-4.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/netty-transport-4.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/netty-transport-native-epoll-4.1.6.Final-linux-x86_64.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/nv-websocket-client-2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/ratpack-core-1.4.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/reactive-streams-1.0.0.final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/snakeyaml-1.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/spring-beans-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/spring-core-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/spring-jcl-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/spring-social-core-1.1.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/spring-web-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/token-bucket-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/twitch4j-v0.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/typetools-0.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/app/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/args4j-2.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/aspectjrt-1.8.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/caffeine-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/commons-io-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/commons-lang3-3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/expiringmap-0.5.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/guava-19.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/jackson-core-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/jackson-databind-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/jackson-dataformat-yaml-2.7.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/jackson-datatype-guava-2.7.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/jackson-datatype-jdk8-2.7.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/jackson-datatype-jsr310-2.7.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/javassist-3.19.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/jcabi-aspects-0.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/jcabi-log-0.17.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/lombok-1.16.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/netty-buffer-4.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/netty-codec-4.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/netty-codec-http-4.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/netty-common-4.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/netty-handler-4.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/netty-resolver-4.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/netty-transport-4.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/netty-transport-native-epoll-4.1.6.Final-linux-x86_64.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/nv-websocket-client-2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/ratpack-core-1.4.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/reactive-streams-1.0.0.final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/snakeyaml-1.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/spring-beans-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/spring-core-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/spring-jcl-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/spring-social-core-1.1.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/spring-web-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/token-bucket-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/twitch4j-v0.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/typetools-0.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/mavenjava-1.0-SNAPSHOT-jfx.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/app/mavenjava-1.0-SNAPSHOT.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/mavenjava-1.0-SNAPSHOT.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/mavenjava-1.0-SNAPSHOT.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/msvcp120.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/msvcr100.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/msvcr120.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/packager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/COPYRIGHT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/THIRDPARTYLICENSEREADME-JAVAFX.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/THIRDPARTYLICENSEREADME.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/Welcome.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/JAWTAccessBridge-64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/JavaAccessBridge-64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/WindowsAccessBridge-64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/attach.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/awt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/bci.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/dcpr.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/decora_sse.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/deploy.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/dt_shmem.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/dt_socket.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/fontmanager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/fxplugins.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/glass.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/glib-lite.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/gstreamer-lite.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/hprof.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/instrument.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/j2pcsc.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/j2pkcs11.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/jaas_nt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/java.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/java_crw_demo.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/javafx_font.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/javafx_font_t2k.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/javafx_iio.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/jawt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/jdwp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/jfr.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/jfxmedia.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/jfxwebkit.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/jli.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/jpeg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/jsdt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/jsound.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/jsoundds.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/kcms.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/lcms.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/management.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/mlib_image.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/msvcp120.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/msvcr100.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/msvcr120.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/net.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/nio.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/npt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/plugin2/msvcr100.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/plugin2/npjp2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/prism_common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/prism_d3d.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/prism_sw.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/resource.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/sawindbg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/server/Xusage.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/server/classes.jsa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/server/jvm.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/splashscreen.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/sunec.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/sunmscapi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/t2k.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/unpack.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/verify.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/w2k_lsa_auth.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/bin/zip.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/accessibility.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/amd64/jvm.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/calendars.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/charsets.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/classlist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/cmm/CIEXYZ.pf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/cmm/GRAY.pf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/cmm/LINEAR_RGB.pf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/cmm/PYCC.pf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/cmm/sRGB.pf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/content-types.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/currency.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/ext/access-bridge-64.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/ext/cldrdata.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/ext/dnsns.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/ext/jaccess.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/ext/jfxrt.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/ext/localedata.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/ext/meta-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/ext/nashorn.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/ext/sunec.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/ext/sunjce_provider.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/ext/sunmscapi.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/ext/sunpkcs11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/ext/zipfs.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/flavormap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/fontconfig.bfc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/fontconfig.properties.src" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/fonts/LucidaBrightDemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/fonts/LucidaBrightDemiItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/fonts/LucidaBrightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/fonts/LucidaBrightRegular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/fonts/LucidaSansDemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/fonts/LucidaSansRegular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/fonts/LucidaTypewriterBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/fonts/LucidaTypewriterRegular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/hijrah-config-umalqura.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/images/cursors/cursors.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/images/cursors/invalid32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/images/cursors/win32_CopyDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/images/cursors/win32_CopyNoDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/images/cursors/win32_LinkDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/images/cursors/win32_LinkNoDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/images/cursors/win32_MoveDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/images/cursors/win32_MoveNoDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/javafx.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/javaws.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/jce.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/jfr.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/jfr/default.jfc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/jfr/profile.jfc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/jfxswt.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/jsse.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/jvm.hprof.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/management-agent.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/management/jmxremote.access" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/management/jmxremote.password.template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/management/management.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/management/snmp.acl.template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/meta-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/net.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/plugin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/psfont.properties.ja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/psfontj2d.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/resources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/rt.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/security/US_export_policy.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/security/blacklist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/security/blacklisted.certs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/security/cacerts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/security/java.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/security/java.security" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/security/javaws.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/security/local_policy.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/security/trusted.libraries" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/sound.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/tzdb.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jfx/native/mavenjava-1.0-SNAPSHOT/runtime/lib/tzmappings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-    </list>
+    <list default="true" id="739bdb80-77cb-4f8e-a455-4cb1e505f4b4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../twitch4j-master/.gradle/" />
@@ -302,7 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/mavenjava$MainApp.ic" NAME="MainApp Coverage Results" MODIFIED="1531073846959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/mavenjava$MainApp.ic" NAME="MainApp Coverage Results" MODIFIED="1531148972874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/mavenjava$MainApp.coverage" NAME="MainApp Coverage Results" MODIFIED="1524941652706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
@@ -381,57 +107,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/MainController.java">
+      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="344" lean-forward="true" selection-start-line="344" selection-end-line="344" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2217#2233#0" expanded="true" />
-                <element signature="e#6016#6659#0" expanded="true" />
-                <element signature="e#6658#6659#0" expanded="true" />
-                <element signature="e#11127#11143#0" expanded="true" />
-                <element signature="e#11180#11206#0" expanded="true" />
-                <element signature="e#11270#11286#0" expanded="true" />
-                <element signature="e#11323#11349#0" expanded="true" />
-                <element signature="e#11789#11805#0" expanded="true" />
-                <element signature="e#11842#11868#0" expanded="true" />
-                <element signature="e#12564#12580#0" expanded="true" />
-                <element signature="e#12617#12643#0" expanded="true" />
-                <element signature="e#12731#12747#0" expanded="true" />
-                <element signature="e#12784#12810#0" expanded="true" />
-                <element signature="e#13047#13063#0" expanded="true" />
-                <element signature="e#13100#13126#0" expanded="true" />
-                <element signature="e#13287#13303#0" expanded="true" />
-                <element signature="e#13340#13366#0" expanded="true" />
-                <element signature="e#14423#14439#0" expanded="true" />
-                <element signature="e#14476#14502#0" expanded="true" />
-                <element signature="e#14593#14609#0" expanded="true" />
-                <element signature="e#14646#14672#0" expanded="true" />
-                <element signature="e#14768#14784#0" expanded="true" />
-                <element signature="e#14821#14847#0" expanded="true" />
-                <marker date="1531073939978" expanded="true" signature="5307:5930" ph="..." />
-              </folding>
+            <state relative-caret-position="183">
+              <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chats.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/chats.fxml">
+      <file leaf-file-name="PrivateMessageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/PrivateMessageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="-378">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file leaf-file-name="ChatsController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/ChatsController.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#991#999#0" expanded="true" />
+                <element signature="e#1422#1453#0" expanded="true" />
+                <element signature="e#1649#1657#0" expanded="true" />
+                <element signature="e#3669#3685#0" expanded="true" />
+                <element signature="e#3781#3797#0" expanded="true" />
+                <element signature="e#3834#3860#0" expanded="true" />
+                <element signature="e#6388#6419#0" expanded="true" />
+                <element signature="e#6626#6634#0" expanded="true" />
+                <element signature="e#8807#8823#0" expanded="true" />
+                <element signature="e#8923#8939#0" expanded="true" />
+                <element signature="e#8976#9002#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="435" column="41" selection-start-line="435" selection-start-column="41" selection-end-line="435" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1531941113211" expanded="true" signature="5981:6604" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewersController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/ViewersController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -442,33 +194,10 @@
       <file leaf-file-name="Listeners.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/Listeners.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="privateMessage.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/privateMessage.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file leaf-file-name="hello.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hello.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -485,40 +214,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>body-co</find>
-      <find>privateme</find>
-      <find>privatemessage</find>
-      <find>commandType</find>
-      <find>raw</find>
-      <find>Whisper</find>
-      <find>WHIS</find>
-      <find>Listeners</find>
-      <find>liste</find>
-      <find>whisper</find>
-      <find>privateMessage.fxm</find>
-      <find>addLabel</find>
-      <find>+</find>
-      <find>liveStatusText</find>
-      <find>notifica</find>
-      <find>NO messa</find>
-      <find>setFrom</find>
-      <find>online</find>
-      <find>setViewL</find>
-      <find>PRESE</find>
-      <find>channelName</find>
-      <find>database</find>
-      <find>NO mess</find>
-      <find>isUserPre</find>
-      <find>present me</find>
-      <find>Stage is</find>
       <find>updateData</find>
       <find>createPri</find>
       <find>privateMessageLoader</find>
       <find>-In</find>
+      <find>exitBtn</find>
+      <find>addMessa</find>
+      <find>clickBtn</find>
+      <find>fromUser</find>
+      <find>FROM USER IS</find>
+      <find>setFromUser</find>
+      <find>addDialogs</find>
+      <find>listeners</find>
+      <find>pressed</find>
+      <find>current</find>
+      <find>contr</find>
+      <find>currentUser</find>
+      <find>getDisplay</find>
+      <find>setId</find>
+      <find>onEnter</find>
+      <find>addNewD</find>
+      <find>addNewDialo</find>
+      <find>update</find>
+      <find>YOU:</find>
+      <find>USER FROM</find>
+      <find>initModa</find>
+      <find>chat</find>
+      <find>create</find>
+      <find>image</find>
+      <find>imageViewCount</find>
+      <find>META-</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../twitch4j" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -1096,7 +825,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/MainApp.java" />
         <option value="$PROJECT_DIR$/src/main/fxml/helol.fxml" />
         <option value="$PROJECT_DIR$/src/main/fxml/hello.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/hello.fxml" />
@@ -1127,21 +855,27 @@
         <option value="$PROJECT_DIR$/../twitch4j-master-new/src/main/java/me/philippheuer/twitch4j/auth/model/OAuthCredential.java" />
         <option value="$PROJECT_DIR$/../twitch4j-master-new/src/main/java/me/philippheuer/twitch4j/message/commands/DynamicCommand.java" />
         <option value="$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/enums/TwitchScopes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/artek/LoginController.java" />
         <option value="$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/auth/OAuthTwitch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/artek/DatabaseClasses/WorkWithMongo.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/artek/ViewersController.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/09e5ade2-1612-4855-a5f4-78ba1fcda987/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/artek/MainApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/artek/DatabaseMessages.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/artek/PrivateMessageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/artek/Listeners.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hello.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/css/chat.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/css/dialogs.css" />
+        <option value="$PROJECT_DIR$/target/classes/privateMessage.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/privateMessage.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/artek/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hello.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/chats.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/artek/PrivateMessageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/artek/ChatsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/artek/CustomPreloader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/artek/LauncherImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/artek/AppPreloader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/artek/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/artek/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/artek/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/artek/Listeners.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1172,8 +906,7 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="mavenjava" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="jar" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -1182,9 +915,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="258" />
-    <option name="y" value="220" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="516" />
+    <option name="y" value="-20" />
     <option name="width" value="1172" />
     <option name="height" value="722" />
   </component>
@@ -1194,8 +927,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1211,128 +945,40 @@
             <path>
               <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
               <item name="mavenjava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenjava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenjava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenjava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="artek" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenjava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenjava" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitch4j-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitch4j-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitch4j-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitch4j-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitch4j-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="philippheuer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitch4j-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="philippheuer" type="462c0819:PsiDirectoryNode" />
-              <item name="twitch4j" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitch4j-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="philippheuer" type="462c0819:PsiDirectoryNode" />
-              <item name="twitch4j" type="462c0819:PsiDirectoryNode" />
-              <item name="endpoints" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitch4j-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="philippheuer" type="462c0819:PsiDirectoryNode" />
-              <item name="twitch4j" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
+              <item name="mavenjava" type="462c0819:PsiDirectoryNode" />
+              <item name="twitch4j-master" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="onChannel&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.message.irc.listener.IRCEventListener#onChannelMessage&#10;OnWhisper&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.message.irc.listener.IRCEventListener#onWhisper&#10;Irc&#9;FILE&#9;file://C:/Users/artek/Desktop/twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/event/irc/IRCMessageEvent.java&#10;IRCMe&#9;FILE&#9;file://C:/Users/artek/Desktop/twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/event/irc/IRCMessageEvent.java&#10;Listene&#9;FILE&#9;file://C:/Users/artek/Desktop/mavenjava/src/main/java/com/artek/Listeners.java&#10;createNo&#9;PSI&#9;JAVA://com.artek.MainController#createMessageNotification&#10;FollowEve&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.events.event.channel.FollowEvent&#10;Abs&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.events.event.AbstractChannelEvent&#10;EventS&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.events.EventSubscriber&#10;label&#9;PSI&#9;JAVA://com.artek.MainController#addLabel&#10;Module&#9;ACTION&#9;ShowModulesDependencies&#10;OAuth&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.auth.OAuthHandler&#10;redirect&#9;PSI&#9;JAVA://ratpack.handling.Handlers#redirect&#10;KEY_&#9;PSI&#9;JAVA://com.sun.deploy.util.WinRegistry#KEY_ALL_ACCESS" />
+    <property name="SearchEverywhereHistoryKey" value="Listen&#9;FILE&#9;file://C:/Users/artek/Desktop/mavenjava/src/main/java/com/artek/Listeners.java&#10;onChannel&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.message.irc.listener.IRCEventListener#onChannelMessage&#10;OnWhisper&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.message.irc.listener.IRCEventListener#onWhisper&#10;Irc&#9;FILE&#9;file://C:/Users/artek/Desktop/twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/event/irc/IRCMessageEvent.java&#10;IRCMe&#9;FILE&#9;file://C:/Users/artek/Desktop/twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/event/irc/IRCMessageEvent.java&#10;Listene&#9;FILE&#9;file://C:/Users/artek/Desktop/mavenjava/src/main/java/com/artek/Listeners.java&#10;createNo&#9;PSI&#9;JAVA://com.artek.MainController#createMessageNotification&#10;FollowEve&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.events.event.channel.FollowEvent&#10;Abs&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.events.event.AbstractChannelEvent&#10;EventS&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.events.EventSubscriber&#10;label&#9;PSI&#9;JAVA://com.artek.MainController#addLabel&#10;Module&#9;ACTION&#9;ShowModulesDependencies&#10;OAuth&#9;PSI&#9;JAVA://me.philippheuer.twitch4j.auth.OAuthHandler&#10;redirect&#9;PSI&#9;JAVA://ratpack.handling.Handlers#redirect&#10;KEY_&#9;PSI&#9;JAVA://com.sun.deploy.util.WinRegistry#KEY_ALL_ACCESS" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../twitch4j-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../twichatnew" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.38331854" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\artek\Desktop\mavenjava" />
       <recent name="C:\Users\artek\Desktop\mavenjava\src\main\java\com\artek" />
       <recent name="C:\Users\artek\Desktop\mavenjava\src\main\resources" />
       <recent name="C:\Users\artek\Desktop\mavenjava\src\main\css" />
       <recent name="C:\Users\artek\Desktop\twitch4j-master\src\main\resources" />
-      <recent name="C:\Users\artek\Desktop\mavenjava\src\main\java\com\artek\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -1357,12 +1003,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainApp">
+  <component name="RunManager" selected="Application.LauncherImp">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
+    <configuration name="AppPreloader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.artek.AppPreloader" />
+      <module name="mavenjava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.artek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CustomPreloader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.artek.CustomPreloader" />
+      <module name="mavenjava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.artek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.artek.Launcher" />
+      <module name="mavenjava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.artek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LauncherImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.artek.LauncherImp" />
       <module name="mavenjava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -1431,6 +1110,16 @@
       </option>
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Twitch4J" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -1491,9 +1180,15 @@
     <list>
       <item itemvalue="Application.MainApp" />
       <item itemvalue="Application.Launcher" />
+      <item itemvalue="Application.CustomPreloader" />
+      <item itemvalue="Application.AppPreloader" />
+      <item itemvalue="Application.LauncherImp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LauncherImp" />
+        <item itemvalue="Application.AppPreloader" />
+        <item itemvalue="Application.CustomPreloader" />
         <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.Launcher" />
       </list>
@@ -1588,12 +1283,26 @@
       <workItem from="1530881473080" duration="4255000" />
       <workItem from="1530960772325" duration="4198000" />
       <workItem from="1531067188909" duration="6304000" />
-      <workItem from="1531124984963" duration="1007000" />
+      <workItem from="1531124984963" duration="2468000" />
+      <workItem from="1531132753792" duration="3313000" />
+      <workItem from="1531136263182" duration="1240000" />
+      <workItem from="1531148223951" duration="11020000" />
+      <workItem from="1531245510732" duration="3193000" />
+      <workItem from="1531249161821" duration="763000" />
+      <workItem from="1531295808952" duration="2897000" />
+      <workItem from="1531309637628" duration="3893000" />
+      <workItem from="1531410673683" duration="5237000" />
+      <workItem from="1531423695568" duration="402000" />
+      <workItem from="1531491174209" duration="3179000" />
+      <workItem from="1531498129354" duration="12860000" />
+      <workItem from="1531824132161" duration="1976000" />
+      <workItem from="1531860902452" duration="1690000" />
+      <workItem from="1531935961155" duration="5243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166763000" />
+    <option name="totallyTimeSpent" value="225130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1606,95 +1315,50 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32924107" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010661" side_tool="true" weight="0.40625" />
-      <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.48080134" weight="0.25053304" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="8" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.390625" />
+      <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.48080134" visible="true" weight="0.25053304" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4989339" weight="0.390625" />
-      <window_info anchor="bottom" id="Spring" order="15" weight="0.32924107" />
-      <window_info anchor="bottom" id="Terminal" order="18" sideWeight="0.51897323" weight="0.24441965" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47767857" visible="true" weight="0.23347548" />
-      <window_info anchor="right" id="Bean Validation" order="12" sideWeight="0.49812734" weight="0.32995737" />
       <window_info anchor="bottom" id="Database" order="19" weight="0.38058037" />
-      <window_info anchor="right" id="Gradle" order="10" weight="0.32995737" />
       <window_info anchor="right" id="Structure" order="14" sideWeight="0.5339266" side_tool="true" weight="0.22654584" />
-      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.47985348" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.47802198" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info id="Favorites" order="6" sideWeight="0.5223214" side_tool="true" weight="0.27452025" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.40513393" />
-      <window_info anchor="right" id="Properties" order="6" />
-      <window_info id="Nl-Palette" order="1" />
-      <window_info anchor="right" id="Coverage" order="13" sideWeight="0.52014655" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Changes" order="11" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32924107" />
-      <window_info anchor="right" id="JetGradle" order="5" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Problems" order="14" />
-      <window_info anchor="bottom" id="Profiler" order="10" />
-      <window_info anchor="right" id="Module Dependencies" order="11" weight="0.32995737" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.328125" />
-      <window_info anchor="bottom" id="Application Servers" order="9" />
-      <window_info anchor="bottom" id="Build" order="17" weight="0.32924107" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.328125" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="17" weight="0.32924107" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Spring" order="15" weight="0.32924107" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32924107" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946696" weight="0.40401787" />
-      <window_info anchor="right" id="JetGradle" order="5" />
-      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.48080134" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Profiler" order="10" />
-      <window_info anchor="right" id="Properties" order="6" />
-      <window_info anchor="bottom" id="Changes" order="11" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.40625" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.328125" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Problems" order="14" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="right" id="Module Dependencies" order="11" weight="0.32995737" />
-      <window_info anchor="bottom" id="Application Servers" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info id="Nl-Palette" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.48080134" weight="0.25053304" />
-      <window_info anchor="bottom" id="Terminal" order="18" sideWeight="0.51897323" weight="0.24441965" />
-      <window_info anchor="right" id="Gradle" order="10" weight="0.32995737" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47767857" visible="true" weight="0.23081024" />
-      <window_info active="true" anchor="bottom" id="Database" order="19" visible="true" weight="0.38058037" />
-      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32924107" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4989339" weight="0.328125" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Favorites" order="6" sideWeight="0.5223214" side_tool="true" weight="0.27452025" />
-      <window_info anchor="right" id="Structure" order="14" sideWeight="0.5339266" side_tool="true" weight="0.22654584" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="13" sideWeight="0.51919866" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4978678" weight="0.390625" />
+      <window_info anchor="bottom" id="Spring" order="15" weight="0.32924107" />
+      <window_info anchor="bottom" id="Terminal" order="18" sideWeight="0.51897323" weight="0.24441965" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47767857" visible="true" weight="0.26385927" />
+      <window_info anchor="right" id="Bean Validation" order="12" sideWeight="0.49812734" weight="0.32995737" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.328125" />
-      <window_info anchor="right" id="Bean Validation" order="12" weight="0.32995737" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.40513393" />
-    </layout-to-restore>
+      <window_info anchor="right" id="Gradle" order="10" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="6" sideWeight="0.5223214" side_tool="true" weight="0.27452025" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info id="Nl-Palette" order="1" />
+      <window_info anchor="right" id="Coverage" order="13" sideWeight="0.521978" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Changes" order="11" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32924107" />
+      <window_info anchor="right" id="JetGradle" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Problems" order="14" />
+      <window_info anchor="bottom" id="Profiler" order="10" />
+      <window_info anchor="right" id="Module Dependencies" order="11" weight="0.32995737" />
+      <window_info anchor="bottom" id="Application Servers" order="9" />
+      <window_info anchor="bottom" id="Build" order="17" weight="0.32924107" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="1" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1704,7 +1368,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1712,136 +1376,28 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/notification.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.18/d65e72edec3424e45335602fc1a4ff6e614f4553/lombok-1.16.18-sources.jar!/lombok/EqualsAndHashCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/event/irc/ChannelMessageEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/event/irc/UserBanEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/IListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/event/irc/IRCMessageEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/event/irc/PrivateMessageEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/message/irc/listener/IRCEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="67" column="14" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master-new/src/main/java/me/philippheuer/twitch4j/events/event/irc/roomstates/ChannelStatesEvent.java" />
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master-new/src/main/java/me/philippheuer/twitch4j/message/commands/DynamicCommand.java" />
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master-new/src/main/java/me/philippheuer/twitch4j/auth/model/OAuthCredential.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/v0.10.2/twitch4j-v0.10.2.jar!/me/philippheuer/twitch4j/enums/TwitchScopes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="226" selection-start-line="7" selection-start-column="226" selection-end-line="7" selection-end-column="226" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/v0.10.2/twitch4j-v0.10.2.jar!/me/philippheuer/twitch4j/auth/OAuthTwitch.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/v0.10.2/twitch4j-v0.10.2-sources.jar!/me/philippheuer/twitch4j/enums/TwitchScopes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="113" column="56" selection-start-line="113" selection-start-column="56" selection-end-line="113" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/v0.10.2/twitch4j-v0.10.2-sources.jar!/me/philippheuer/twitch4j/auth/OAuthTwitch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1437">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/auth/CredentialManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/endpoints/ChatEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/twitch4j-master/src/main/java/me/philippheuer/twitch4j/endpoints/ChatEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/auth/OAuthTwitch.java">
+    <entry file="file://$PROJECT_DIR$/twitch4j-master/src/main/java/me/philippheuer/twitch4j/auth/OAuthTwitch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="153" column="43" lean-forward="true" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/enums/TwitchScopes.java">
+    <entry file="file://$PROJECT_DIR$/twitch4j-master/src/main/java/me/philippheuer/twitch4j/enums/TwitchScopes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="97" column="7" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/message/MessageInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="100" column="39" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/endpoints/UnofficialEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/twitch4j-master/src/main/java/me/philippheuer/twitch4j/endpoints/UnofficialEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
@@ -1849,17 +1405,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/DatabaseClasses/WorkWithMongo.java" />
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/endpoints/UserEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/twitch4j-master/src/main/java/me/philippheuer/twitch4j/endpoints/UserEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
           <caret line="477" column="41" selection-start-line="477" selection-start-column="30" selection-end-line="477" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1891,20 +1440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="3802" selection-start-line="3802" selection-end-line="3802" />
-          <folding>
-            <element signature="e#221360#221361#0" expanded="true" />
-            <element signature="e#221418#221419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/credentials.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/jdbc/ConnectionImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -1929,7 +1464,7 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/09e5ade2-1612-4855-a5f4-78ba1fcda987/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/EventDispatcher.java">
+    <entry file="file://$PROJECT_DIR$/twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/EventDispatcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="245" selection-start-line="245" selection-end-line="245" />
@@ -1957,34 +1492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274">
-          <caret line="50" column="80" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="62" column="75" selection-start-line="62" selection-start-column="75" selection-end-line="62" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/ViewersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/WhisperListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-424">
@@ -1992,91 +1499,236 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/PrivateMessageController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/message.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/Scene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="91" column="70" lean-forward="true" selection-start-line="91" selection-start-column="70" selection-end-line="91" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="331">
+          <caret line="221" column="11" selection-start-line="221" selection-start-column="11" selection-end-line="221" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hello.fxml">
+    <entry file="file://$PROJECT_DIR$/target/classes/privateMessage.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/chats.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="257">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/Listeners.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/css/dialogs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/com/sun/javafx/application/PlatformImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="294" selection-start-line="294" selection-end-line="294" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/privateMessage.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/ChatsController.java">
+    <entry file="file://$PROJECT_DIR$/twitch4j-master/src/main/java/me/philippheuer/twitch4j/message/irc/TwitchChat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="173">
+          <caret line="437" column="16" selection-start-line="437" selection-start-column="16" selection-end-line="437" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitch4j-master/src/main/java/me/philippheuer/twitch4j/message/MessageInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hello.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="139" selection-start-line="50" selection-start-column="139" selection-end-line="50" selection-end-column="139" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/chats.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="129" selection-start-line="11" selection-start-column="129" selection-end-line="11" selection-end-column="129" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/CustomPreloader.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/preloader.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mavenjava.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/twichatlogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="270" column="52" selection-start-line="270" selection-start-column="9" selection-end-line="270" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/stage/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="265" column="16" selection-start-line="265" selection-start-column="16" selection-end-line="265" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/LauncherImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/AppPreloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitch4j-master/src/main/java/me/philippheuer/twitch4j/auth/CredentialManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="303" selection-start-line="303" selection-end-line="303" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitch4j-master/src/main/java/me/philippheuer/twitch4j/events/EventSubscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/WhisperListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/v0.11.0/twitch4j-v0.11.0.jar!/me/philippheuer/twitch4j/TwitchClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/credentials.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/v0.11.0/twitch4j-v0.11.0.jar!/me/philippheuer/twitch4j/TwitchClientBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/ViewersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/ChatsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#991#999#0" expanded="true" />
+            <element signature="e#1422#1453#0" expanded="true" />
+            <element signature="e#1649#1657#0" expanded="true" />
+            <element signature="e#3669#3685#0" expanded="true" />
+            <element signature="e#3781#3797#0" expanded="true" />
+            <element signature="e#3834#3860#0" expanded="true" />
+            <element signature="e#6388#6419#0" expanded="true" />
+            <element signature="e#6626#6634#0" expanded="true" />
+            <element signature="e#8807#8823#0" expanded="true" />
+            <element signature="e#8923#8939#0" expanded="true" />
+            <element signature="e#8976#9002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/PrivateMessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="344" lean-forward="true" selection-start-line="344" selection-end-line="344" />
+        <state relative-caret-position="255">
+          <caret line="435" column="41" selection-start-line="435" selection-start-column="41" selection-end-line="435" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2217#2233#0" expanded="true" />
-            <element signature="e#6016#6659#0" expanded="true" />
-            <element signature="e#6658#6659#0" expanded="true" />
-            <element signature="e#11127#11143#0" expanded="true" />
-            <element signature="e#11180#11206#0" expanded="true" />
-            <element signature="e#11270#11286#0" expanded="true" />
-            <element signature="e#11323#11349#0" expanded="true" />
-            <element signature="e#11789#11805#0" expanded="true" />
-            <element signature="e#11842#11868#0" expanded="true" />
-            <element signature="e#12564#12580#0" expanded="true" />
-            <element signature="e#12617#12643#0" expanded="true" />
-            <element signature="e#12731#12747#0" expanded="true" />
-            <element signature="e#12784#12810#0" expanded="true" />
-            <element signature="e#13047#13063#0" expanded="true" />
-            <element signature="e#13100#13126#0" expanded="true" />
-            <element signature="e#13287#13303#0" expanded="true" />
-            <element signature="e#13340#13366#0" expanded="true" />
-            <element signature="e#14423#14439#0" expanded="true" />
-            <element signature="e#14476#14502#0" expanded="true" />
-            <element signature="e#14593#14609#0" expanded="true" />
-            <element signature="e#14646#14672#0" expanded="true" />
-            <element signature="e#14768#14784#0" expanded="true" />
-            <element signature="e#14821#14847#0" expanded="true" />
-            <marker date="1531073939978" expanded="true" signature="5307:5930" ph="..." />
+            <marker date="1531941113211" expanded="true" signature="5981:6604" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/artek/Listeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -2086,10 +1738,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>mavenjava:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.38331854" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -2132,7 +1786,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mavenjava</last-edited>
+          <last-edited>Twitch4J_test|Twitch4J</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

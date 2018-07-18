@@ -41,8 +41,12 @@ import java.util.TimerTask;
  */
 public class MainController implements Initializable {
     static boolean isClosed = false;
+    public Stage mainStage;
+
     @FXML
     Button exitBtn;
+    @FXML
+    Button messagesBtn;
     @FXML
     Button onTopBtn;
     boolean onTop = false;
@@ -65,18 +69,21 @@ public class MainController implements Initializable {
     public static String viewCountString = "0";
 
     public FXMLLoader privateMessageLoader = null;
+    public FXMLLoader chatsLoader = null;
 
     public void onEnter(KeyEvent event) {
-        if (event.getCode() == KeyCode.ENTER) {
+        if (event.getCode().equals(KeyCode.ENTER)) {
             String user = MainApp.channelName;
             String textMessage = textArea.getText();
-            textArea.clear();
+
             MainApp.twitchClient.getMessageInterface().joinChannel(MainApp.channelName);
             MainApp.twitchClient.getMessageInterface().sendMessage(MainApp.channelName, textMessage);
             Platform.runLater(() -> MainApp.loader.<MainController>getController().addLabel((Listeners.getDate() + user + ": " + textMessage), Color.BLUE));
-
+            textArea.clear();
+            event.consume();
 
         }
+
 
 
     }
@@ -110,6 +117,11 @@ public class MainController implements Initializable {
     }
 
     public void initialize(URL location, ResourceBundle resources) {
+        textArea.setFocusTraversable(false);
+
+        scrollPane.setStyle("-fx-focus-color: transparent;");
+        vbox.setStyle("-fx-focus-color: transparent;");
+
         TextAreaSkin customTextAreaSkin = new TextAreaSkin(textArea) {
             @Override
             public void populateContextMenu(ContextMenu contextMenu) {
@@ -140,9 +152,12 @@ public class MainController implements Initializable {
 
                 contextMenu.getItems().add(new SeparatorMenuItem());
                 contextMenu.getItems().add(aboutMenuItem);
+
             }
         };
-
+        Platform.runLater(() -> {
+            mainStage = (Stage) textArea.getScene().getWindow();
+        });
         textArea.setSkin(customTextAreaSkin);
 
         ImageView imageView = new ImageView(new Image(getClass().getResourceAsStream("/exit.png")));
@@ -152,6 +167,18 @@ public class MainController implements Initializable {
         imageView.setFitHeight(16);
 
         exitBtn.setGraphic(imageView);
+
+
+        ImageView imageViewMessages = new ImageView(new Image(getClass().getResourceAsStream("/message.png")));
+
+        imageViewMessages.setFitWidth(16);
+
+        imageViewMessages.setFitHeight(16);
+
+        messagesBtn.setGraphic(imageViewMessages);
+
+
+
         imageViewCount.setImage(new Image("view.png"));
         vbox.setSpacing(30);
         vbox.heightProperty().addListener(new ChangeListener<Number>() {
@@ -375,9 +402,10 @@ public class MainController implements Initializable {
                                     Platform.runLater(() -> {
                                         MainApp.loader.<MainController>getController().privateMessageLoader.<PrivateMessageController>getController().setFromUser(user);
 
-                                        MainApp.loader.<MainController>getController().privateMessageLoader.<PrivateMessageController>getController().addLastMessages(
-                                                MainApp.loader.<MainController>getController().privateMessageLoader.<PrivateMessageController>getController().fromUser
-                                        );
+                                        //TODO
+//                                        MainApp.loader.<MainController>getController().privateMessageLoader.<PrivateMessageController>getController().addLastMessages(
+//                                                MainApp.loader.<MainController>getController().privateMessageLoader.<PrivateMessageController>getController().fromUser
+//                                        );
 
 
 
@@ -394,5 +422,28 @@ public class MainController implements Initializable {
         System.out.println("Private Message Notification created");
     }
 
+    public void messagesClicked(MouseEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("chats.fxml"));
+        chatsLoader = fxmlLoader;
+        fxmlLoader.setController(new ChatsController());
+
+        Parent root1 = (Parent) fxmlLoader.load();
+        Stage stage = new Stage();
+
+
+        stage.initModality(Modality.APPLICATION_MODAL);
+
+        //Set window position as a parent
+
+        stage.setX(mainStage.getX() + 2);
+        stage.setY(mainStage.getY() + 2);
+
+        stage.setTitle("Chats");
+        stage.setResizable(false);
+        Scene scene = new Scene(root1, 390, 490);
+        scene.getStylesheets().add(getClass().getClassLoader().getResource("css/dialogs.css").toExternalForm());
+        stage.setScene(scene);
+        stage.show();
+    }
 }
 

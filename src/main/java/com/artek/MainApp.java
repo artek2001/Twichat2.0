@@ -4,8 +4,10 @@ import com.aquafx_project.AquaFx;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 import me.philippheuer.twitch4j.TwitchClient;
 import me.philippheuer.twitch4j.TwitchClientBuilder;
@@ -21,18 +23,10 @@ public class MainApp extends Application {
     public static Stage stage;
     public static FXMLLoader loader;
     public static String channelName;
-
+    public boolean isLogined = false;
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
-
-
-
-
-        //Initializing twitch client
-
-
-
+    public void init() {
         TwitchClient twitchClient = TwitchClientBuilder.init()
                 .withClientId("1bt8jtsi7qcion753bqgczo9tft7kx")
                 .withClientSecret("01c9pdtfwrfuza5o795h489nfxgrah")
@@ -42,6 +36,28 @@ public class MainApp extends Application {
                 .withListener(new Listeners())
                 .build();
         this.twitchClient = twitchClient;
+
+        if (twitchClient.getCredentialManager().getTwitchCredentialsForCustomKey("IRC").isPresent()) {
+
+            isLogined = true;
+
+            this.channelName = twitchClient.getCredentialManager().getOAuthCredentials().get("TWITCH-IRC").getDisplayName();
+
+            //register listeners for the channel
+            twitchClient.getChannelEndpoint(channelName).registerEventListener();
+            twitchClient.connect();
+
+        } else {
+            isLogined = false;
+
+        }
+    }
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+
+        //Initializing twitch client
+
 
         stage = primaryStage;
         loader = new FXMLLoader(getClass().getClassLoader().getResource("hello.fxml"));
@@ -54,35 +70,24 @@ public class MainApp extends Application {
         sceneMain.getStylesheets().add(getClass().getResource("notification.css").toExternalForm());
 
         primaryStage.setScene(sceneMain);
-        primaryStage.show();
-        FXMLLoader loaderTemp;
-        System.out.println("Launched");
+        if (!isLogined) {
+            loader = new FXMLLoader(getClass().getClassLoader().getResource("login.fxml"));
 
-
-        if (twitchClient.getCredentialManager().getTwitchCredentialsForCustomKey("IRC").isPresent()) {
-            this.channelName = twitchClient.getCredentialManager().getOAuthCredentials().get("TWITCH-IRC").getDisplayName();
-
-            //register listeners for the channel
-            twitchClient.getChannelEndpoint(channelName).registerEventListener();
-            twitchClient.connect();
-
-        } else {
-            loaderTemp = new FXMLLoader(getClass().getClassLoader().getResource("login.fxml"));
-            this.loader = loaderTemp;
             root = loader.load();
             primaryStage.setScene(new Scene(root, 400, 550));
         }
 
 
-
-
+        primaryStage.show();
+        FXMLLoader loaderTemp;
+        System.out.println("Launched");
 
     }
 
 
     public static void main(String[] args) throws Exception {
 
-        AquaFx.style();
+        //AquaFx.style();
 
         launch(args);
 

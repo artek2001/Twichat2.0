@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import java.lang.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
@@ -9,16 +10,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="434.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.artek.PrivateMessageController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ScrollPane fx:id="scrollPane" maxHeight="Infinity" prefHeight="355.0" prefWidth="600.0">
+      <ScrollPane fx:id="scrollPane" layoutY="30.0" maxHeight="Infinity" prefHeight="381.0" prefWidth="390.0">
          <content>
-            <VBox fx:id="chatBox">
-               <children>
-                  <Button fx:id="clickBtn" mnemonicParsing="false" onMouseClicked="#clickBtnAction" text="Exit Chat" />
-               </children></VBox>
+            <VBox fx:id="chatBox" />
          </content>
       </ScrollPane>
-      <TextArea layoutY="354.0" prefHeight="80.0" prefWidth="600.0" promptText="Chat there" wrapText="true" />
+      <TextArea layoutY="410.0" prefHeight="80.0" prefWidth="390.0" promptText="Chat there" wrapText="true" fx:id="sendMessageBox" onKeyPressed="#sendMessage"/>
+      <Button fx:id="clickBtn" layoutX="14.0" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#clickBtnAction" prefHeight="25.0" prefWidth="64.0" text="Exit Chat" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="312.0" AnchorPane.topAnchor="2.0" />
    </children>
 </AnchorPane>

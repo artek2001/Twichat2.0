@@ -2,10 +2,10 @@
 <module external.linked.project.id="Twitch4J" external.linked.project.path="$MODULE_DIR$/../../../twitch4j-master" external.root.project.path="$MODULE_DIR$/../../../twitch4j-master" external.system.id="GRADLE" external.system.module.group="com.github.twitch4j" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../twitch4j-master">
-      <excludeFolder url="file://$MODULE_DIR$/../../../twitch4j-master/.gradle" />
+    <content url="file://$MODULE_DIR$/../../twitch4j-master">
+      <excludeFolder url="file://$MODULE_DIR$/../../twitch4j-master/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../twitch4j-master/out" />
       <excludeFolder url="file://$MODULE_DIR$/../../../twitch4j-master/build" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../twitch4j-master/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
