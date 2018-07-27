@@ -1,6 +1,6 @@
 package com.artek;
 
-import com.aquafx_project.AquaFx;
+
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

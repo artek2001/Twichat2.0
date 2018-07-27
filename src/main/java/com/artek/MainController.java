@@ -208,8 +208,8 @@ public class MainController implements Initializable {
 //
 //        };
 //        new Thread(setViewLiveStatus).start();
-
-        new Timer().schedule(
+        Timer taskTimer = new Timer();
+        taskTimer.schedule(
                 new TimerTask() {
 
                     @Override
@@ -228,10 +228,11 @@ public class MainController implements Initializable {
 
                         Platform.runLater(() -> liveStatus.setText(liveStatusText));
                         System.out.println("Statuses have been set");
+
                     }
 
                 }, 0, 5000);
-
+        taskTimer.cancel();
 //        new Thread(new Runnable() {
 //            @Override
 //            public void run() {

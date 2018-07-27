@@ -24,6 +24,7 @@ public class AppPreloader extends Preloader {
         p.getChildren().add(new javafx.scene.image.ImageView(getClass().getClassLoader().getResource("twichatlogo.png").toExternalForm()));
         scene = new Scene(p, 600, 400);
         return scene;
+        
     }
 
     public void start(Stage stage) throws Exception {
@@ -42,7 +43,7 @@ public class AppPreloader extends Preloader {
     @Override
     public void handleStateChangeNotification(StateChangeNotification evt) {
         if (evt.getType() == StateChangeNotification.Type.BEFORE_START) {
-
+            
             stage.hide();
         }
     }
